@@ -1,0 +1,62 @@
+name: Update and publish report
+on:
+  schedule:
+    - cron: '37 3,7,11,15,19 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'update_report.py'
+      - 'test_report.py'
+      - 'template.html'
+      - '.github/workflows/report.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: public-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Check collector behavior
+        run: python -m unittest test_report -v
+      - name: Collect and build
+        run: |
+          python update_report.py
+          npm install --prefix "$RUNNER_TEMP/png-renderer" --no-audit --no-fund --save-exact sharp@0.34.4
+          NODE_PATH="$RUNNER_TEMP/png-renderer/node_modules" node -e "require('sharp')('history.svg',{density:144}).png().toFile('history.png').catch(e=>{console.error(e);process.exit(1)})"
+      - name: Save report history
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html libraries.json history.csv history.svg history.png
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update daily public report'
+            git push origin HEAD:main
+          fi
+      - name: Prepare website files
+        run: |
+          mkdir _site
+          cp index.html libraries.json history.csv history.svg history.png .nojekyll _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4
