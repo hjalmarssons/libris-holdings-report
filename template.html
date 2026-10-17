@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder — library holdings</title>
+<meta name="description" content="Daily library holdings, history graph, and library list for Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder. Source: Libris.">
+<style>
+:root{color-scheme:light;font-family:system-ui,-apple-system,sans-serif;color:#183238;background:#f5f6f2}
+*{box-sizing:border-box}body{margin:0}main{max-width:1000px;margin:auto;padding:48px 24px}
+a{color:#176055;text-underline-offset:3px}a:focus-visible{outline:3px solid #a57722;outline-offset:4px}
+.eyebrow{letter-spacing:.12em;font-size:12px;font-weight:700;text-transform:uppercase;color:#526b65}
+h1{font-family:Georgia,serif;font-size:clamp(28px,5vw,46px);line-height:1.15;font-weight:500;max-width:850px;margin:16px 0}
+.meta,.note{color:#52635f;font-size:14px;line-height:1.65}.summary{display:flex;align-items:baseline;gap:14px;margin:32px 0 10px}
+.count{font-size:64px;line-height:1;font-weight:650;letter-spacing:-.06em}.summary span{font-size:18px}
+.date{margin:12px 0 28px}figure{background:white;padding:14px;margin:0;border:1px solid #dce3dc;border-radius:10px}
+figure img{display:block;width:100%;height:auto}figcaption{padding:8px 12px 10px;color:#52635f;font-size:13px;line-height:1.6}
+nav{display:flex;flex-wrap:wrap;gap:20px;margin:20px 0 38px;font-size:14px}h2{font-size:23px;margin:32px 0 12px}
+table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:13px 10px;border-bottom:1px solid #dce3dc}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:#52635f}td:last-child{font-family:ui-monospace,monospace;width:110px}
+footer{border-top:1px solid #dce3dc;margin-top:36px;padding-top:18px}#stale{background:#fff0c9;border-radius:5px;padding:12px}
+[hidden]{display:none!important}@media(max-width:540px){main{padding:28px 16px}figure{padding:0}.summary{gap:12px}.count{font-size:56px}td,th{padding:12px 5px}}
+</style></head><body><main>
+<header><p class="eyebrow">Library holdings · Libris</p><h1>Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder</h1>
+<p class="meta">ISBN 9789147158324 · <a href="https://libris.kb.se/c0qkzx1t9hs5ml77">View this edition in Libris</a></p></header>
+<div class="summary"><strong class="count">@@COUNT@@</strong><span>library sigels with holdings</span></div>
+<p class="meta date">Latest observation: <strong><time datetime="@@DATE@@">@@DATE@@</time></strong> · Europe/Stockholm</p>
+<p id="stale" class="note" hidden>The latest observation is more than one day old. The date above shows when the holdings were last checked.</p>
+<figure><img src="history.svg" width="900" height="400" alt="Line graph showing the number of Libris library sigels with holdings over time.">
+<figcaption>One point per daily observation. Missing days appear as gaps; earlier values are unknown.</figcaption></figure>
+<nav aria-label="Downloads"><a href="history.png" download>Download PNG</a><a href="history.svg">Open SVG</a><a href="history.csv" download>Download history (CSV)</a><a href="libraries.json">Library data (JSON)</a></nav>
+<h2>Latest changes</h2><p class="note">@@CHANGES@@</p>
+<h2>Current libraries</h2><table><caption class="note">@@COUNT@@ library sigels · @@DATE@@</caption><thead><tr><th scope="col">Library</th><th scope="col">Sigel</th></tr></thead><tbody>@@ROWS@@</tbody></table>
+<footer><p class="note">Source: Libris, Kungliga biblioteket. Counts cover unique library sigels with registered holdings for this edition. They do not measure copies, individual branches, or current loan availability.</p>
+<p class="note">Checked at <time datetime="@@CHECKED@@">@@CHECKED@@</time>. This report updates after successful daily collection.</p></footer>
+</main><script>
+const today = new Intl.DateTimeFormat('sv-SE', {timeZone:'Europe/Stockholm'}).format(new Date());
+const observed = document.querySelector('.date time').dateTime;
+if ((Date.parse(today) - Date.parse(observed)) / 86400000 > 1) document.getElementById('stale').hidden = false;
+</script></body></html>

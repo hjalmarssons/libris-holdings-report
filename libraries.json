@@ -1,0 +1,139 @@
+{
+  "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
+  "isbn": "9789147158324",
+  "libris_id": "c0qkzx1t9hs5ml77",
+  "date": "2026-10-17",
+  "checked_at": "2026-10-16T23:39:03+00:00",
+  "timezone": "Europe/Stockholm",
+  "count": 24,
+  "libraries": [
+    {
+      "sigel": "Afb",
+      "name": "Alingsås bibliotek",
+      "uri": "https://libris.kb.se/library/Afb"
+    },
+    {
+      "sigel": "3Al",
+      "name": "Bibliotek på Åland",
+      "uri": "https://libris.kb.se/library/3Al"
+    },
+    {
+      "sigel": "Gbg",
+      "name": "Biblioteken i Göteborg",
+      "uri": "https://libris.kb.se/library/Gbg"
+    },
+    {
+      "sigel": "Boln",
+      "name": "Bollnäs bibliotek",
+      "uri": "https://libris.kb.se/library/Boln"
+    },
+    {
+      "sigel": "Borb",
+      "name": "Borlänge bibliotek",
+      "uri": "https://libris.kb.se/library/Borb"
+    },
+    {
+      "sigel": "Bo",
+      "name": "Borås stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Bo"
+    },
+    {
+      "sigel": "Btj",
+      "name": "BTJ",
+      "uri": "https://libris.kb.se/library/Btj"
+    },
+    {
+      "sigel": "Hdf",
+      "name": "Högskolan Dalarna",
+      "uri": "https://libris.kb.se/library/Hdf"
+    },
+    {
+      "sigel": "Hib",
+      "name": "Högskolan i Borås",
+      "uri": "https://libris.kb.se/library/Hib"
+    },
+    {
+      "sigel": "Ch",
+      "name": "Karolinska Institutet, Universitetsbiblioteket",
+      "uri": "https://libris.kb.se/library/Ch"
+    },
+    {
+      "sigel": "Lsam",
+      "name": "Lunds universitets bibliotek",
+      "uri": "https://libris.kb.se/library/Lsam"
+    },
+    {
+      "sigel": "Mo",
+      "name": "Malmö stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Mo"
+    },
+    {
+      "sigel": "Mchs",
+      "name": "Marie Cederschiöld högskolebibliotek",
+      "uri": "https://libris.kb.se/library/Mchs"
+    },
+    {
+      "sigel": "Moln",
+      "name": "Mölndals stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Moln"
+    },
+    {
+      "sigel": "Nyks",
+      "name": "Nyköpings stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Nyks"
+    },
+    {
+      "sigel": "Solb",
+      "name": "Solna stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Solb"
+    },
+    {
+      "sigel": "Ssb",
+      "name": "Stockholms stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Ssb"
+    },
+    {
+      "sigel": "H",
+      "name": "Stockholms universitet",
+      "uri": "https://libris.kb.se/library/H"
+    },
+    {
+      "sigel": "Um",
+      "name": "Umeå stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Um"
+    },
+    {
+      "sigel": "7Up",
+      "name": "Uppsalas skolor",
+      "uri": "https://libris.kb.se/library/7Up"
+    },
+    {
+      "sigel": "Varb",
+      "name": "Varbergs bibliotek",
+      "uri": "https://libris.kb.se/library/Varb"
+    },
+    {
+      "sigel": "Vetb",
+      "name": "Vetlanda bibliotek",
+      "uri": "https://libris.kb.se/library/Vetb"
+    },
+    {
+      "sigel": "7Vax",
+      "name": "Växjö skolbibliotek",
+      "uri": "https://libris.kb.se/library/7Vax"
+    },
+    {
+      "sigel": "O",
+      "name": "Örebro universitetsbibliotek",
+      "uri": "https://libris.kb.se/library/O"
+    }
+  ],
+  "changes": {
+    "baseline": false,
+    "compared_to": "2026-10-16",
+    "added": [
+      "O"
+    ],
+    "removed": []
+  }
+}
