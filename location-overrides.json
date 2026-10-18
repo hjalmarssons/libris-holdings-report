@@ -1,0 +1,23 @@
+{
+  "3Al": {
+    "latitude": 60.10194444,
+    "longitude": 19.94305556,
+    "city": "Mariehamn",
+    "note": "Representative network location: Mariehamns stadsbibliotek; individual branches are not mapped.",
+    "source": "https://www.wikidata.org/wiki/Q10577327"
+  },
+  "7Up": {
+    "latitude": 59.860581,
+    "longitude": 17.635331,
+    "city": "Uppsala",
+    "note": "Approximate city location for the school network, using Bibliotek Uppsala; this does not identify a school holding the book.",
+    "source": "https://bibdb.libris.kb.se/api/lib?sigel=Usb"
+  },
+  "7Vax": {
+    "latitude": 56.880443,
+    "longitude": 14.801149,
+    "city": "Växjö",
+    "note": "Approximate city location for the school network, using Växjö stadsbibliotek; this does not identify a school holding the book.",
+    "source": "https://bibdb.libris.kb.se/api/lib?sigel=Va1"
+  }
+}

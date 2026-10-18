@@ -1,0 +1,173 @@
+{
+  "checked_at": "2026-10-18T18:48:01+00:00",
+  "libraries": {
+    "Bo": {
+      "latitude": 57.721064,
+      "longitude": 12.947793,
+      "city": "Borås",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Bo",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Gbg": {
+      "latitude": 57.697872,
+      "longitude": 11.979705,
+      "city": "Göteborg",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Gbg",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Afb": {
+      "latitude": 57.92829,
+      "longitude": 12.533157,
+      "city": "Alingsås",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Afb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Boln": {
+      "latitude": 61.350172,
+      "longitude": 16.395539,
+      "city": "Bollnäs",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Boln",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Borb": {
+      "latitude": 60.487187,
+      "longitude": 15.4341032,
+      "city": "Borlänge",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Borb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Moln": {
+      "latitude": 57.658057,
+      "longitude": 12.015339,
+      "city": "Mölndal",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Moln",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Nyks": {
+      "latitude": 58.753752,
+      "longitude": 17.007323,
+      "city": "Nyköping",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Nyks",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Solb": {
+      "latitude": 59.3596838,
+      "longitude": 18.0014164,
+      "city": "Solna",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Solb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Varb": {
+      "latitude": 57.1085415,
+      "longitude": 12.2514041,
+      "city": "Varberg",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Varb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Vetb": {
+      "latitude": 57.4254522,
+      "longitude": 15.0860502,
+      "city": "Vetlanda",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Vetb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Btj": {
+      "latitude": 55.7046601,
+      "longitude": 13.1910073,
+      "city": "Lund",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Btj",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Ch": {
+      "latitude": 59.219457,
+      "longitude": 17.940694,
+      "city": "Huddinge",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Ch",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "H": {
+      "latitude": 59.362781,
+      "longitude": 18.057017,
+      "city": "Stockholm",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=H",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Hdf": {
+      "latitude": 60.614055,
+      "longitude": 15.65373,
+      "city": "Falun",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Hdf",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Hib": {
+      "latitude": 57.724812,
+      "longitude": 12.940629,
+      "city": "Borås",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Hib",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Mo": {
+      "latitude": 55.60053,
+      "longitude": 12.994148,
+      "city": "Malmö",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Mo",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Ssb": {
+      "latitude": 59.343382,
+      "longitude": 18.054268,
+      "city": "Stockholm",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Ssb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Um": {
+      "latitude": 63.826973,
+      "longitude": 20.26463,
+      "city": "Umeå",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Um",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "O": {
+      "latitude": 59.254354,
+      "longitude": 15.2513,
+      "city": "Örebro",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=O",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "3Al": {
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "city": "Mariehamn",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=3Al",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Mchs": {
+      "latitude": 59.316602,
+      "longitude": 18.086491,
+      "city": "Stockholm",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Mchs",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Lsam": {
+      "latitude": 55.708521,
+      "longitude": 13.194494,
+      "city": "",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Lsam",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "7Up": {
+      "latitude": null,
+      "longitude": null,
+      "city": "Uppsala",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=7Up",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "7Vax": {
+      "latitude": null,
+      "longitude": null,
+      "city": "Växjö",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=7Vax",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    }
+  }
+}
