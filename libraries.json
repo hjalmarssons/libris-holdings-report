@@ -2,9 +2,9 @@
   "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
   "isbn": "9789147158324",
   "libris_id": "c0qkzx1t9hs5ml77",
-  "date": "2026-10-17",
-  "checked_at": "2026-10-16T23:39:03+00:00",
   "timezone": "Europe/Stockholm",
+  "date": "2026-10-18",
+  "checked_at": "2026-10-18T08:17:39+00:00",
   "count": 24,
   "libraries": [
     {
@@ -130,10 +130,8 @@
   ],
   "changes": {
     "baseline": false,
-    "compared_to": "2026-10-16",
-    "added": [
-      "O"
-    ],
+    "compared_to": "2026-10-17",
+    "added": [],
     "removed": []
   }
 }
