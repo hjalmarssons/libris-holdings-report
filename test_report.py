@@ -45,4 +45,36 @@ class ReportTests(unittest.TestCase):
             self.assertEqual((root/'libraries.json').read_bytes(),original)
 
 
+    def test_comparison_is_one_dated_point_and_exact_top_tick(self):
+        import xml.etree.ElementTree as ET
+        history = [{'date':'2026-10-07','count':19}, {'date':'2026-10-09','count':24}]
+        comparison = {'date':'2026-10-19','count':53,'title':'Earlier <book>'}
+        svg = report.graph(history, comparison)
+        nodes = list(ET.fromstring(svg).iter())
+        markers = [n for n in nodes if n.get('class') == 'comparison-point']
+        self.assertEqual(len(markers), 1)
+        self.assertIn('870.0,89.0', markers[0].get('points'))
+        self.assertIn('53', [n.text for n in nodes if n.tag.endswith('text')])
+        self.assertNotIn('54', [n.text for n in nodes if n.tag.endswith('text')])
+        self.assertEqual(svg.count('<circle '), 2)
+        self.assertNotIn('stroke-width="2.5"', svg)
+        self.assertIn('&lt;book&gt;', svg)
+        self.assertIn('2026-10-19', svg)
+        # A growing primary series must never silently disappear above the reference.
+        svg = report.graph([{'date':'2026-10-20','count':60}], comparison)
+        self.assertIn('cy="95.0"', svg)
+
+    def test_public_build_rejects_comparison_library_list(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            latest = {'title':'Test','isbn':'1','libris_id':'c0qkzx1t9hs5ml77',
+                'timezone':'Europe/Stockholm','date':'2026-10-19','count':0,'libraries':[]}
+            (root/'libraries.json').write_text(json.dumps(latest))
+            (root/'history.csv').write_text('date,count\n2026-10-19,0\n')
+            (root/'comparison.json').write_text(json.dumps({'count':50,'libraries':[]}))
+            with self.assertRaisesRegex(ValueError, 'aggregate metadata'):
+                report.rebuild(root, now=datetime(2026,10,19,12,tzinfo=timezone.utc))
+            self.assertFalse((root/'index.html').exists())
+
+
 if __name__ == '__main__': unittest.main()

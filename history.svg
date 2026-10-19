@@ -1,50 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
 <title id="title">Libraries with holdings over time</title>
-<desc id="desc">Daily unique Libris library sigels. Missing days appear as gaps.</desc>
-<rect width="900" height="400" fill="white"/>
+<desc id="desc">Daily unique Libris library sigels. Missing days appear as gaps. The diamond is a single dated observation of the earlier edition, not historical data.</desc>
+<rect width="900" height="440" fill="white"/>
 <g font-family="system-ui,sans-serif" font-size="14" fill="#334155">
 <text x="70" y="30" font-size="20" font-weight="600">Libraries with holdings</text>
-<path d="M70 330.0H870" stroke="#e2e8f0"/>
-<text x="55" y="335.0" text-anchor="end">0</text>
-<path d="M70 275.0H870" stroke="#e2e8f0"/>
-<text x="55" y="280.0" text-anchor="end">5</text>
-<path d="M70 220.0H870" stroke="#e2e8f0"/>
-<text x="55" y="225.0" text-anchor="end">10</text>
-<path d="M70 165.0H870" stroke="#e2e8f0"/>
-<text x="55" y="170.0" text-anchor="end">15</text>
-<path d="M70 110.0H870" stroke="#e2e8f0"/>
-<text x="55" y="115.0" text-anchor="end">20</text>
-<path d="M70 55.0H870" stroke="#e2e8f0"/>
-<text x="55" y="60.0" text-anchor="end">25</text>
-<path d="M70.0 121.0L136.7 121.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M136.7 121.0L203.3 99.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M203.3 99.0L270.0 99.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M270.0 99.0L336.7 99.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M336.7 99.0L403.3 99.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M403.3 99.0L470.0 77.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M470.0 77.0L536.7 77.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M536.7 77.0L603.3 77.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M603.3 77.0L670.0 77.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M670.0 77.0L736.7 66.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M736.7 66.0L803.3 66.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M803.3 66.0L870.0 66.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<circle cx="70.0" cy="121.0" r="3.5" fill="#2563eb"><title>2026-10-07: 19 libraries</title></circle>
-<circle cx="136.7" cy="121.0" r="3.5" fill="#2563eb"><title>2026-10-08: 19 libraries</title></circle>
-<circle cx="203.3" cy="99.0" r="3.5" fill="#2563eb"><title>2026-10-09: 21 libraries</title></circle>
-<circle cx="270.0" cy="99.0" r="3.5" fill="#2563eb"><title>2026-10-10: 21 libraries</title></circle>
-<circle cx="336.7" cy="99.0" r="3.5" fill="#2563eb"><title>2026-10-11: 21 libraries</title></circle>
-<circle cx="403.3" cy="99.0" r="3.5" fill="#2563eb"><title>2026-10-12: 21 libraries</title></circle>
-<circle cx="470.0" cy="77.0" r="3.5" fill="#2563eb"><title>2026-10-13: 23 libraries</title></circle>
-<circle cx="536.7" cy="77.0" r="3.5" fill="#2563eb"><title>2026-10-14: 23 libraries</title></circle>
-<circle cx="603.3" cy="77.0" r="3.5" fill="#2563eb"><title>2026-10-15: 23 libraries</title></circle>
-<circle cx="670.0" cy="77.0" r="3.5" fill="#2563eb"><title>2026-10-16: 23 libraries</title></circle>
-<circle cx="736.7" cy="66.0" r="3.5" fill="#2563eb"><title>2026-10-17: 24 libraries</title></circle>
-<circle cx="803.3" cy="66.0" r="3.5" fill="#2563eb"><title>2026-10-18: 24 libraries</title></circle>
-<circle cx="870.0" cy="66.0" r="3.5" fill="#2563eb"><title>2026-10-19: 24 libraries</title></circle>
-<text x="70.0" y="355" text-anchor="start">2026-10-07</text>
-<text x="270.0" y="355" text-anchor="middle">2026-10-10</text>
-<text x="470.0" y="355" text-anchor="middle">2026-10-13</text>
-<text x="670.0" y="355" text-anchor="middle">2026-10-16</text>
-<text x="870.0" y="355" text-anchor="end">2026-10-19</text>
-<text x="450" y="385" text-anchor="middle">Observation date (Europe/Stockholm)</text>
+<text x="70" y="58" font-size="14" fill="#956526">◇ Ojämlikhetens dimensioner: 50 libraries · snapshot 2026-10-19</text>
+<path d="M70 370.0H870" stroke="#e2e8f0"/>
+<text x="55" y="375.0" text-anchor="end">0</text>
+<path d="M70 315.0H870" stroke="#e2e8f0"/>
+<text x="55" y="320.0" text-anchor="end">10</text>
+<path d="M70 260.0H870" stroke="#e2e8f0"/>
+<text x="55" y="265.0" text-anchor="end">20</text>
+<path d="M70 205.0H870" stroke="#e2e8f0"/>
+<text x="55" y="210.0" text-anchor="end">30</text>
+<path d="M70 150.0H870" stroke="#e2e8f0"/>
+<text x="55" y="155.0" text-anchor="end">40</text>
+<path d="M70 95.0H870" stroke="#e2e8f0"/>
+<text x="55" y="100.0" text-anchor="end">50</text>
+<path d="M70.0 265.5L136.7 265.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M136.7 265.5L203.3 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M203.3 254.5L270.0 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M270.0 254.5L336.7 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M336.7 254.5L403.3 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M403.3 254.5L470.0 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M470.0 243.5L536.7 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M536.7 243.5L603.3 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M603.3 243.5L670.0 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M670.0 243.5L736.7 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M736.7 238.0L803.3 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M803.3 238.0L870.0 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<circle cx="70.0" cy="265.5" r="3.5" fill="#2563eb"><title>2026-10-07: 19 libraries</title></circle>
+<circle cx="136.7" cy="265.5" r="3.5" fill="#2563eb"><title>2026-10-08: 19 libraries</title></circle>
+<circle cx="203.3" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-09: 21 libraries</title></circle>
+<circle cx="270.0" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-10: 21 libraries</title></circle>
+<circle cx="336.7" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-11: 21 libraries</title></circle>
+<circle cx="403.3" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-12: 21 libraries</title></circle>
+<circle cx="470.0" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-13: 23 libraries</title></circle>
+<circle cx="536.7" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-14: 23 libraries</title></circle>
+<circle cx="603.3" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-15: 23 libraries</title></circle>
+<circle cx="670.0" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-16: 23 libraries</title></circle>
+<circle cx="736.7" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-17: 24 libraries</title></circle>
+<circle cx="803.3" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-18: 24 libraries</title></circle>
+<circle cx="870.0" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-19: 24 libraries</title></circle>
+<polygon class="comparison-point" points="870.0,89.0 876.0,95.0 870.0,101.0 864.0,95.0" fill="#a67538"><title>Ojämlikhetens dimensioner: uppväxtvillkor, arbete och hälsa i Sverige: 50 libraries on 2026-10-19</title></polygon>
+<text x="70.0" y="395" text-anchor="start">2026-10-07</text>
+<text x="270.0" y="395" text-anchor="middle">2026-10-10</text>
+<text x="470.0" y="395" text-anchor="middle">2026-10-13</text>
+<text x="670.0" y="395" text-anchor="middle">2026-10-16</text>
+<text x="870.0" y="395" text-anchor="end">2026-10-19</text>
+<text x="450" y="425" text-anchor="middle">Observation date (Europe/Stockholm)</text>
 </g></svg>

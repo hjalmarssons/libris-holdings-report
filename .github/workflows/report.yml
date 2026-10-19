@@ -9,6 +9,7 @@ on:
       - 'update_report.py'
       - 'test_report.py'
       - 'template.html'
+      - 'comparison.json'
       - 'library_map.py'
       - 'test_library_map.py'
       - 'location-overrides.json'

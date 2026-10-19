@@ -11,3 +11,9 @@ The workflow tries five times daily and skips collection after a successful obse
 Counts are unique Libris library sigels for this edition, not copies or loan availability.
 
 The daily map shows identical blue dots for holdings and hollow grey circles for other active Libris participants with usable coordinates. Networks use one representative location. Coordinates come from KB’s library directory, with documented fallbacks; country outlines are Natural Earth public-domain data. Holding locations refresh with each daily observation; the participant directory refreshes weekly. Cached coordinates are used during directory outages and labelled in the zoomable map. The map works without external tiles or scripts.
+
+## Earlier book comparison
+
+Ojämlikhetens dimensioner (ISBN 9789147111299; Libris tc5b55h5189jw23): **50 unique library sigels**, observed 2026-10-19. This is a fixed, dated snapshot shown as a separate diamond, not a second daily series. The y-axis ends at 50 unless the daily series grows beyond it.
+
+Only aggregate comparison metadata is stored here. The comparison library list, coordinates, and map remain in the private tracker.
