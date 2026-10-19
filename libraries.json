@@ -3,8 +3,8 @@
   "isbn": "9789147158324",
   "libris_id": "c0qkzx1t9hs5ml77",
   "timezone": "Europe/Stockholm",
-  "date": "2026-10-18",
-  "checked_at": "2026-10-18T08:17:39+00:00",
+  "date": "2026-10-19",
+  "checked_at": "2026-10-19T09:15:02+00:00",
   "count": 24,
   "libraries": [
     {
@@ -130,7 +130,7 @@
   ],
   "changes": {
     "baseline": false,
-    "compared_to": "2026-10-17",
+    "compared_to": "2026-10-18",
     "added": [],
     "removed": []
   }
