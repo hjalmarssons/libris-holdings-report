@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-19",
-  "checked_at": "2026-10-19T09:15:02+00:00",
+  "date": "2026-10-20",
+  "checked_at": "2026-10-19T23:01:29+00:00",
   "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
-  "count": 24,
+  "count": 25,
   "libraries": [
     {
       "sigel": "Afb",
@@ -38,6 +38,18 @@
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Gbg",
       "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
       "first_seen": "2026-10-07",
+      "representative": false
+    },
+    {
+      "sigel": "Sosb",
+      "name": "Biblioteken i Södertälje",
+      "uri": "https://libris.kb.se/library/Sosb",
+      "latitude": 59.1969229,
+      "longitude": 17.6265349,
+      "city": "Södertälje",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Sosb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
+      "first_seen": "2026-10-20",
       "representative": false
     },
     {
@@ -294,7 +306,7 @@
     }
   ],
   "unmapped": [],
-  "directory_checked_at": "2026-10-19T09:15:03+00:00",
+  "directory_checked_at": "2026-10-19T23:01:30+00:00",
   "cached_coordinates": false,
   "other_libraries": [
     {
@@ -5366,17 +5378,6 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Sos",
-      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
-    },
-    {
-      "sigel": "Sosb",
-      "name": "Biblioteken i Södertälje",
-      "uri": "https://libris.kb.se/library/Sosb",
-      "latitude": 59.1969229,
-      "longitude": 17.6265349,
-      "city": "",
-      "country_code": "se",
-      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Sosb",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
     {

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-19T09:15:03+00:00",
+  "checked_at": "2026-10-19T23:01:30+00:00",
   "libraries": {
     "Bo": {
       "latitude": 57.721064,
@@ -55,6 +55,13 @@
       "longitude": 18.0014164,
       "city": "Solna",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Solb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Sosb": {
+      "latitude": 59.1969229,
+      "longitude": 17.6265349,
+      "city": "Södertälje",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Sosb",
       "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
     },
     "Varb": {

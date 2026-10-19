@@ -3,9 +3,9 @@
   "isbn": "9789147158324",
   "libris_id": "c0qkzx1t9hs5ml77",
   "timezone": "Europe/Stockholm",
-  "date": "2026-10-19",
-  "checked_at": "2026-10-19T09:15:02+00:00",
-  "count": 24,
+  "date": "2026-10-20",
+  "checked_at": "2026-10-19T23:01:29+00:00",
+  "count": 25,
   "libraries": [
     {
       "sigel": "Afb",
@@ -21,6 +21,11 @@
       "sigel": "Gbg",
       "name": "Biblioteken i Göteborg",
       "uri": "https://libris.kb.se/library/Gbg"
+    },
+    {
+      "sigel": "Sosb",
+      "name": "Biblioteken i Södertälje",
+      "uri": "https://libris.kb.se/library/Sosb"
     },
     {
       "sigel": "Boln",
@@ -130,8 +135,10 @@
   ],
   "changes": {
     "baseline": false,
-    "compared_to": "2026-10-18",
-    "added": [],
+    "compared_to": "2026-10-19",
+    "added": [
+      "Sosb"
+    ],
     "removed": []
   }
 }
