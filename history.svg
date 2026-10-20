@@ -17,38 +17,41 @@
 <text x="55" y="155.0" text-anchor="end">40</text>
 <path d="M70 95.0H870" stroke="#e2e8f0"/>
 <text x="55" y="100.0" text-anchor="end">50</text>
-<path d="M70.0 265.5L131.5 265.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M131.5 265.5L193.1 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M193.1 254.5L254.6 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M254.6 254.5L316.2 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M316.2 254.5L377.7 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M377.7 254.5L439.2 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M439.2 243.5L500.8 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M500.8 243.5L562.3 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M562.3 243.5L623.8 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M623.8 243.5L685.4 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M685.4 238.0L746.9 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M746.9 238.0L808.5 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M808.5 238.0L870.0 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M70.0 265.5L127.1 265.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M127.1 265.5L184.3 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M184.3 254.5L241.4 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M241.4 254.5L298.6 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M298.6 254.5L355.7 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M355.7 254.5L412.9 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M412.9 243.5L470.0 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M470.0 243.5L527.1 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M527.1 243.5L584.3 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M584.3 243.5L641.4 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M641.4 238.0L698.6 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M698.6 238.0L755.7 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M755.7 238.0L812.9 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M812.9 232.5L870.0 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
 <circle cx="70.0" cy="265.5" r="3.5" fill="#2563eb"><title>2026-10-07: 19 libraries</title></circle>
-<circle cx="131.5" cy="265.5" r="3.5" fill="#2563eb"><title>2026-10-08: 19 libraries</title></circle>
-<circle cx="193.1" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-09: 21 libraries</title></circle>
-<circle cx="254.6" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-10: 21 libraries</title></circle>
-<circle cx="316.2" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-11: 21 libraries</title></circle>
-<circle cx="377.7" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-12: 21 libraries</title></circle>
-<circle cx="439.2" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-13: 23 libraries</title></circle>
-<circle cx="500.8" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-14: 23 libraries</title></circle>
-<circle cx="562.3" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-15: 23 libraries</title></circle>
-<circle cx="623.8" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-16: 23 libraries</title></circle>
-<circle cx="685.4" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-17: 24 libraries</title></circle>
-<circle cx="746.9" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-18: 24 libraries</title></circle>
-<circle cx="808.5" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-19: 24 libraries</title></circle>
-<circle cx="870.0" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-20: 25 libraries</title></circle>
-<polygon class="comparison-point" points="808.5,89.0 814.5,95.0 808.5,101.0 802.5,95.0" fill="#a67538"><title>Ojämlikhetens dimensioner: uppväxtvillkor, arbete och hälsa i Sverige: 50 libraries on 2026-10-19</title></polygon>
+<circle cx="127.1" cy="265.5" r="3.5" fill="#2563eb"><title>2026-10-08: 19 libraries</title></circle>
+<circle cx="184.3" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-09: 21 libraries</title></circle>
+<circle cx="241.4" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-10: 21 libraries</title></circle>
+<circle cx="298.6" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-11: 21 libraries</title></circle>
+<circle cx="355.7" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-12: 21 libraries</title></circle>
+<circle cx="412.9" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-13: 23 libraries</title></circle>
+<circle cx="470.0" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-14: 23 libraries</title></circle>
+<circle cx="527.1" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-15: 23 libraries</title></circle>
+<circle cx="584.3" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-16: 23 libraries</title></circle>
+<circle cx="641.4" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-17: 24 libraries</title></circle>
+<circle cx="698.6" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-18: 24 libraries</title></circle>
+<circle cx="755.7" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-19: 24 libraries</title></circle>
+<circle cx="812.9" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-20: 25 libraries</title></circle>
+<circle cx="870.0" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-21: 25 libraries</title></circle>
+<polygon class="comparison-point" points="755.7,89.0 761.7,95.0 755.7,101.0 749.7,95.0" fill="#a67538"><title>Ojämlikhetens dimensioner: uppväxtvillkor, arbete och hälsa i Sverige: 50 libraries on 2026-10-19</title></polygon>
 <text x="70.0" y="395" text-anchor="start">2026-10-07</text>
-<text x="254.6" y="395" text-anchor="middle">2026-10-10</text>
-<text x="439.2" y="395" text-anchor="middle">2026-10-13</text>
-<text x="685.4" y="395" text-anchor="middle">2026-10-17</text>
-<text x="808.5" y="395" text-anchor="middle">2026-10-19</text>
+<text x="298.6" y="395" text-anchor="middle">2026-10-11</text>
+<text x="470.0" y="395" text-anchor="middle">2026-10-14</text>
+<text x="641.4" y="395" text-anchor="middle">2026-10-17</text>
+<text x="755.7" y="395" text-anchor="middle">2026-10-19</text>
+<text x="870.0" y="395" text-anchor="end">2026-10-21</text>
 <text x="450" y="425" text-anchor="middle">Observation date (Europe/Stockholm)</text>
 </g></svg>
