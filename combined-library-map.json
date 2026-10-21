@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-21",
-  "checked_at": "2026-10-20T22:34:12+00:00",
+  "date": "2026-10-22",
+  "checked_at": "2026-10-21T22:38:21+00:00",
   "title": "Combined book holdings",
   "count": 66,
   "libraries": [
@@ -8029,13 +8029,13 @@
   "current": {
     "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
     "libris_id": "c0qkzx1t9hs5ml77",
-    "date": "2026-10-21",
-    "checked_at": "2026-10-20T22:34:12+00:00",
+    "date": "2026-10-22",
+    "checked_at": "2026-10-21T22:38:21+00:00",
     "count": 25
   },
   "both_count": 9,
   "participant_checked_at": "2026-10-17T10:20:19+00:00",
   "participant_cached": false,
-  "directory_checked_at": "2026-10-20T22:34:13+00:00",
+  "directory_checked_at": "2026-10-20T23:56:24+00:00",
   "cached_coordinates": false
 }
