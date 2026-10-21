@@ -1,10 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
 <title id="title">Libraries with holdings over time</title>
-<desc id="desc">Daily unique Libris library sigels. Missing days appear as gaps. The diamond is a single dated observation of the earlier edition, not historical data.</desc>
+<desc id="desc">Daily unique Libris library sigels. Missing days appear as gaps.</desc>
 <rect width="900" height="440" fill="white"/>
 <g font-family="system-ui,sans-serif" font-size="14" fill="#334155">
 <text x="70" y="30" font-size="20" font-weight="600">Libraries with holdings</text>
-<text x="70" y="58" font-size="14" fill="#956526">◇ Ojämlikhetens dimensioner: 50 libraries · snapshot 2026-10-19</text>
 <path d="M70 370.0H870" stroke="#e2e8f0"/>
 <text x="55" y="375.0" text-anchor="end">0</text>
 <path d="M70 315.0H870" stroke="#e2e8f0"/>
@@ -46,12 +45,10 @@
 <circle cx="755.7" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-19: 24 libraries</title></circle>
 <circle cx="812.9" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-20: 25 libraries</title></circle>
 <circle cx="870.0" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-21: 25 libraries</title></circle>
-<polygon class="comparison-point" points="755.7,89.0 761.7,95.0 755.7,101.0 749.7,95.0" fill="#a67538"><title>Ojämlikhetens dimensioner: uppväxtvillkor, arbete och hälsa i Sverige: 50 libraries on 2026-10-19</title></polygon>
 <text x="70.0" y="395" text-anchor="start">2026-10-07</text>
 <text x="298.6" y="395" text-anchor="middle">2026-10-11</text>
 <text x="470.0" y="395" text-anchor="middle">2026-10-14</text>
 <text x="641.4" y="395" text-anchor="middle">2026-10-17</text>
-<text x="755.7" y="395" text-anchor="middle">2026-10-19</text>
 <text x="870.0" y="395" text-anchor="end">2026-10-21</text>
 <text x="450" y="425" text-anchor="middle">Observation date (Europe/Stockholm)</text>
 </g></svg>
