@@ -45,24 +45,28 @@ class ReportTests(unittest.TestCase):
             self.assertEqual((root/'libraries.json').read_bytes(),original)
 
 
-    def test_comparison_is_one_dated_point_and_exact_top_tick(self):
+    def test_comparison_only_sets_y_scale(self):
         import xml.etree.ElementTree as ET
-        history = [{'date':'2026-10-07','count':19}, {'date':'2026-10-09','count':24}]
-        comparison = {'date':'2026-10-19','count':53,'title':'Earlier <book>'}
+        history = [{'date': '2026-10-07', 'count': 19}, {'date': '2026-10-09', 'count': 24}]
+        comparison = {'date': '2026-10-19', 'count': 53, 'title': 'Earlier <book>'}
         svg = report.graph(history, comparison)
         nodes = list(ET.fromstring(svg).iter())
-        markers = [n for n in nodes if n.get('class') == 'comparison-point']
-        self.assertEqual(len(markers), 1)
-        self.assertIn('870.0,89.0', markers[0].get('points'))
+        self.assertFalse(any(n.get('class') == 'comparison-point' for n in nodes))
+        self.assertNotIn('<polygon', svg)
+        self.assertNotIn('Earlier', svg)
+        self.assertNotIn('2026-10-19', svg)
         self.assertIn('53', [n.text for n in nodes if n.tag.endswith('text')])
         self.assertNotIn('54', [n.text for n in nodes if n.tag.endswith('text')])
-        self.assertEqual(svg.count('<circle '), 2)
+        circles = [n for n in nodes if n.tag.endswith('circle')]
+        self.assertEqual([n.get('cx') for n in circles], ['70.0', '870.0'])
         self.assertNotIn('stroke-width="2.5"', svg)
-        self.assertIn('&lt;book&gt;', svg)
-        self.assertIn('2026-10-19', svg)
+        # The reference date cannot change the timeline, even before or within it.
+        for observed in ['2026-10-01', '2026-10-08']:
+            self.assertEqual(svg, report.graph(history, {**comparison, 'date': observed}))
         # A growing primary series must never silently disappear above the reference.
-        svg = report.graph([{'date':'2026-10-20','count':60}], comparison)
+        svg = report.graph([{'date': '2026-10-20', 'count': 60}], comparison)
         self.assertIn('cy="95.0"', svg)
+
 
     def test_public_build_rejects_comparison_library_list(self):
         with tempfile.TemporaryDirectory() as directory:

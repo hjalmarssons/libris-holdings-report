@@ -14,6 +14,6 @@ The daily combined map shows red outlines for Ojämlikhetens dimensioner (the fi
 
 ## Earlier book comparison
 
-Ojämlikhetens dimensioner (ISBN 9789147111299; Libris tc5b55h5189jw23): **50 unique library sigels**, observed 2026-10-19. This is a fixed, dated snapshot shown as a separate diamond, not a second daily series. The y-axis ends at 50 unless the daily series grows beyond it.
+Ojämlikhetens dimensioner (ISBN 9789147111299; Libris tc5b55h5189jw23): **50 unique library sigels**, observed 2026-10-19. This fixed snapshot is used only to set the graph’s y-axis scale; it has no plotted marker, label, or comparison date tick. The y-axis ends at 50 unless the daily series grows beyond it.
 
 The comparison map now uses the same fixed, dated library list and saved directory coordinates, included in comparison-libraries.json. The combined map is rebuilt after each daily collection and replaces map.svg, map.png, and map.html at their existing links. Combined map data is in combined-library-map.json. The current-book library list and count graph retain their existing meanings. Libraries without usable coordinates are listed as unmapped in the zoomable map.
