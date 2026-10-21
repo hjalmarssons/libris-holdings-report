@@ -146,7 +146,7 @@ def project(lon, lat):
 
 def svg_map(data, countries):
     svg = [f'<svg xmlns="http://www.w3.org/2000/svg" id="library-map" viewBox="0 0 {WIDTH} {HEIGHT}" role="img" aria-labelledby="map-title map-desc">',
-           '<title id="map-title">Libraries with holdings — Sweden and Åland</title>',
+           f'<title id="map-title">{escape(data["title"])} — libraries with holdings</title>',
            f'<desc id="map-desc">{len(data["libraries"])} of {data["count"]} sigels mapped on {data["date"]}. One blue dot per sigel. Network dots represent one location, not individual branches.</desc>',
            f'<rect width="{WIDTH}" height="{HEIGHT}" fill="#eaf2f7"/>',
            '<g id="map-layer">']
@@ -168,21 +168,43 @@ def svg_map(data, countries):
     svg.append('<g id="other-libraries">')
     for i, library in enumerate(data.get('other_libraries', [])):
         x, y = project(library['longitude'], library['latitude'])
-        title = escape(f'{library["name"]} ({library["sigel"]}) — no registered holding for this edition')
+        no_holding = 'no registered holding for either edition in these observations' if data.get('combined') else 'no registered holding for this edition'
+        title = escape(f'{library["name"]} ({library["sigel"]}) — {no_holding}')
         svg.append(f'<circle class="other-library" data-index="{i}" tabindex="0" role="button" aria-label="{title}" cx="{x:.3f}" cy="{y:.3f}" r="3.5" fill="none" stroke="#8a99a6" stroke-width="1" vector-effect="non-scaling-stroke"><title>{title}</title></circle>')
     svg.append('</g>')
     for i, library in enumerate(data['libraries']):
         x, y = project(library['longitude'], library['latitude'])
         title = escape(f'{library["name"]} ({library["sigel"]}) — {library["city"]}. {library["note"]}')
-        svg.append(f'<circle class="library-dot" data-index="{i}" tabindex="0" role="button" aria-label="{title}" cx="{x:.3f}" cy="{y:.3f}" r="4.5" fill="#2563eb" stroke="#ffffff" stroke-width="1" vector-effect="non-scaling-stroke"><title>{title}</title></circle>')
+        fill, stroke, stroke_width = '#2563eb', '#ffffff', 1
+        if data.get('combined'):
+            fill = '#2563eb' if library['holds_current'] else 'none'
+            stroke = '#dc2626' if library['holds_earlier'] else '#ffffff'
+            stroke_width = 2 if library['holds_earlier'] else 1
+            status = ('both editions' if library['holds_current'] and library['holds_earlier'] else
+                      'Ojämlikhetens dimensioner' if library['holds_earlier'] else 'Välfärd och livsvillkor')
+            title += escape(' Holdings: ' + status)
+        svg.append(f'<circle class="library-dot" data-index="{i}" tabindex="0" role="button" aria-label="{title}" cx="{x:.3f}" cy="{y:.3f}" r="4.5" fill="{fill}" stroke="{stroke}" stroke-width="{stroke_width}" vector-effect="non-scaling-stroke"><title>{title}</title></circle>')
     svg.extend(['</g>', '<g class="map-caption"><rect x="16" y="16" width="390" height="68" rx="8" fill="white" fill-opacity="0.95"/>',
-                '<text x="30" y="43" font-family="sans-serif" font-size="19" fill="#203245">Libraries with holdings</text>',
+                f'<text x="30" y="43" font-family="sans-serif" font-size="16" fill="#203245">{escape(data["title"].split(":")[0])}</text>',
                 f'<text x="30" y="68" font-family="sans-serif" font-size="14" fill="#627688">{data["date"]} · {len(data["libraries"])} of {data["count"]} sigels mapped</text>',
                 '<rect x="16" y="843" width="640" height="40" rx="6" fill="white" fill-opacity="0.95"/>',
                 '<circle cx="33" cy="862" r="4.5" fill="#2563eb"/><text x="45" y="867" font-family="sans-serif" font-size="13" fill="#627688">Holding registered</text>',
                 '<circle cx="207" cy="862" r="3.5" fill="none" stroke="#8a99a6"/><text x="219" y="867" font-family="sans-serif" font-size="13" fill="#627688">Other Libris participant</text>',
                 '<text x="424" y="867" font-family="sans-serif" font-size="11" fill="#627688">Natural Earth / KB · One location per sigel</text>', '</g></svg>'])
-    return '\n'.join(svg) + '\n'
+    rendered = '\n'.join(svg) + '\n'
+    if data.get('combined'):
+        # Replace only the legend; the map layer retains the same accessible dots.
+        start = rendered.index('<rect x="16" y="843"')
+        rendered = rendered[:start] + '''<rect x="16" y="835" width="728" height="56" rx="6" fill="white" fill-opacity="0.97"/>
+<g font-family="sans-serif" font-size="12" fill="#627688">
+<circle cx="32" cy="852" r="4.5" fill="none" stroke="#dc2626" stroke-width="2"/><text x="44" y="856">Ojämlikhetens dimensioner</text>
+<circle cx="260" cy="852" r="4.5" fill="#2563eb"/><text x="272" y="856">Välfärd och livsvillkor</text>
+<circle cx="483" cy="852" r="4.5" fill="#2563eb" stroke="#dc2626" stroke-width="2"/><text x="495" y="856">Both</text>
+<circle cx="565" cy="852" r="3.5" fill="none" stroke="#8a99a6"/><text x="577" y="856">Other participant</text>
+<text x="30" y="879" font-size="11">Natural Earth / KB · One location per sigel · Grey circles exclude the union of both editions’ holdings</text>
+</g></g></svg>\n'''
+        rendered = rendered.replace('One blue dot per sigel.', 'Red outline: earlier edition; blue fill: current edition; both styles: both editions.')
+    return rendered
 
 
 def interactive_html(data, svg, directory_date, stale):
@@ -198,10 +220,10 @@ def interactive_html(data, svg, directory_date, stale):
                          f'Participant directory checked {data.get("participant_checked_at", "never")}.')
     if data.get('participant_cached'):
         background_status += ' Participant directory unavailable; cached data used.'
-    return '''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    html = '''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Library map</title><style>
 *{box-sizing:border-box}body{margin:0;background:#f6f8fb;color:#203245;font:15px/1.5 system-ui,sans-serif}main{max-width:1260px;margin:auto;padding:28px}h1{font-size:28px;line-height:1.2;margin:0 0 10px}p{margin:8px 0 16px}.muted,small{color:#627688}.layout{display:grid;grid-template-columns:minmax(0,2fr) minmax(270px,1fr);gap:24px}.map-wrap{position:relative;overflow:hidden;border:1px solid #d1dce4;border-radius:14px;background:#eaf2f7}.map-caption{display:none}svg{display:block;width:100%;height:min(76vh,900px);touch-action:none;cursor:grab}.library-dot,.other-library{cursor:pointer}.library-dot:focus,.other-library:focus{outline:none;stroke:#203245;stroke-width:3}.tools{position:absolute;top:12px;left:12px;display:flex;gap:6px}button{font:inherit;cursor:pointer;background:white;color:#203245;border:1px solid #ced9e1;border-radius:6px;padding:6px 12px}button:focus-visible,a:focus-visible{outline:3px solid #2563eb;outline-offset:2px}aside{background:white;border:1px solid #d1dce4;border-radius:14px;padding:20px}#detail{min-height:160px;border-bottom:1px solid #e1e8ee;margin-bottom:18px}h2{font-size:18px;margin:0 0 10px}ul{list-style:none;padding:0;margin:0;max-height:44vh;overflow:auto}li button{text-align:left;display:block;width:100%;border:0;border-radius:0;padding:8px 0}small{font-size:12px}a{color:#1d4ed8}footer{margin-top:18px;font-size:13px;color:#627688}.key{color:#2563eb;font-size:20px;margin-right:6px}#map-status{min-height:24px}@media(max-width:760px){main{padding:16px}.layout{grid-template-columns:1fr}svg{height:66vh}ul{max-height:40vh}}
-</style></head><body><main><p><a href="index.html">Back to the report</a> · <a href="map.svg">Open SVG map</a> · <a href="map.png" download>Download PNG map</a></p><h1>Libraries with holdings</h1><p>''' + escape(data['title']) + '''</p><p class="muted">''' + escape(data['date']) + f''' · {len(data['libraries'])} of {data['count']} library sigels mapped</p><div class="layout"><section><div class="map-wrap">''' + svg + '''<div class="tools"><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button><button id="reset">Reset</button></div></div><p class="muted"><span class="key">●</span>Holding registered · <span class="muted">○ Other Libris participant</span>. One location per sigel. Drag to pan, scroll or use +/− to zoom. Select a dot or library name for details.</p><p><label><input type="checkbox" id="show-other" checked> Show other Libris participants</label></p><p id="map-status" aria-live="polite"></p></section><aside><div id="detail" aria-live="polite"><h2>Select a library</h2><p>Network and multi-site library dots represent one location. They do not identify every branch holding a copy.</p></div><h2>Libraries</h2><ul>''' + ''.join(rows) + '''</ul></aside></div><footer><p>Unmapped holding sigels: ''' + escape(missing) + '''.</p><p>''' + escape(background_status) + '''</p><p>''' + escape(status) + ''' The first recorded date is when this tracker first observed the holding, not the acquisition date.</p><p>Locations: <a href="https://biblioteksdatabasen.libris.kb.se/exportinfo/">KB library directory</a>; documented representative fallbacks (see library details). Country outlines: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public domain. The map works offline; no map tiles, API keys, or external scripts are used.</p></footer></main><script type="application/json" id="map-data">''' + encoded + '''</script><script>
+</style></head><body><main><h1>Libraries with holdings</h1><p>''' + escape(data['title']) + '''</p><p class="muted">''' + escape(data['date']) + f''' · {len(data['libraries'])} of {data['count']} library sigels mapped</p><div class="layout"><section><div class="map-wrap">''' + svg + '''<div class="tools"><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button><button id="reset">Reset</button></div></div><p class="muted"><span class="key">●</span>Holding registered · <span class="muted">○ Other Libris participant</span>. One location per sigel. Drag to pan, scroll or use +/− to zoom. Select a dot or library name for details.</p><p><label><input type="checkbox" id="show-other" checked> Show other Libris participants</label></p><p id="map-status" aria-live="polite"></p></section><aside><div id="detail" aria-live="polite"><h2>Select a library</h2><p>Network and multi-site library dots represent one location. They do not identify every branch holding a copy.</p></div><h2>Libraries</h2><ul>''' + ''.join(rows) + '''</ul></aside></div><footer><p>Unmapped holding sigels: ''' + escape(missing) + '''.</p><p>''' + escape(background_status) + '''</p><p>''' + escape(status) + ''' The first recorded date is when this tracker first observed the holding, not the acquisition date.</p><p>Locations: <a href="https://biblioteksdatabasen.libris.kb.se/exportinfo/">KB library directory</a>; documented representative fallbacks (see library details). Country outlines: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public domain. The map works offline; no map tiles, API keys, or external scripts are used.</p></footer></main><script type="application/json" id="map-data">''' + encoded + '''</script><script>
 'use strict';
 const data = JSON.parse(document.getElementById('map-data').textContent);
 const svg = document.getElementById('library-map');
@@ -227,7 +249,10 @@ function select(index, other = false) {
   panel.replaceChildren();
   const heading = document.createElement('h2'); heading.textContent = lib.name; panel.append(heading);
   for (const text of [`${lib.sigel} · ${lib.city || 'Location from directory'}`, lib.note,
-      ...(other ? ['No registered holding for this edition in the latest observation.'] : [`First recorded holding: ${lib.first_seen || 'unknown'}`]), `${lib.latitude.toFixed(5)}, ${lib.longitude.toFixed(5)}`]) {
+      ...(data.combined ? [
+        `Ojämlikhetens dimensioner (${data.earlier.date}): ${lib.holds_earlier ? 'Yes' : 'No registered holding'}`,
+        `Välfärd och livsvillkor (${data.current.date}): ${lib.holds_current ? 'Yes' : 'No registered holding'}`
+      ] : other ? ['No registered holding for this edition in the latest observation.'] : [`First recorded holding: ${lib.first_seen || 'unknown'}`]), `${lib.latitude.toFixed(5)}, ${lib.longitude.toFixed(5)}`]) {
     const p = document.createElement('p'); p.textContent = text; panel.append(p);
   }
   for (const [label, url] of [['Libris library', lib.uri], ['Coordinate source', lib.source]]) {
@@ -260,6 +285,15 @@ svg.addEventListener('pointermove', event => {if (!drag) return; const p = point
 svg.addEventListener('pointerup', () => {drag = null;});
 svg.addEventListener('pointercancel', () => {drag = null;});
 </script></body></html>'''
+    if data.get('combined'):
+        html = html.replace('<h1>Libraries with holdings</h1>', '<h1>Combined library holdings</h1>')
+        html = html.replace('<span class="key">●</span>Holding registered · <span class="muted">○ Other Libris participant</span>.',
+            '<span style="color:#dc2626">○</span> Ojämlikhetens dimensioner · <span class="key">●</span> Välfärd och livsvillkor · red outline with blue fill: both · grey outline: other Libris participant.')
+        html = html.replace('<p>Combined book holdings</p>',
+            f'<p>Ojämlikhetens dimensioner: {escape(data["earlier"]["date"])} (fixed snapshot) · Välfärd och livsvillkor: {escape(data["current"]["date"])} (latest)</p>')
+        html = html.replace(' The first recorded date is when this tracker first observed the holding, not the acquisition date.',
+            ' Holdings are compared at the two observation dates shown above. No acquisition dates are inferred.')
+    return html
 
 
 def build(root, fetch=get_json, if_needed=False):

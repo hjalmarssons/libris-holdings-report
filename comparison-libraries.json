@@ -1,0 +1,614 @@
+{
+  "date": "2026-10-19",
+  "checked_at": "2026-10-19T13:39:27+00:00",
+  "libris_id": "tc5b55h5189jw23",
+  "isbn": "9789147111299",
+  "title": "Ojämlikhetens dimensioner: uppväxtvillkor, arbete och hälsa i Sverige",
+  "timezone": "Europe/Stockholm",
+  "count": 50,
+  "libraries": [
+    {
+      "sigel": "7Lkp",
+      "name": "Linköpings skolor",
+      "uri": "https://libris.kb.se/library/7Lkp"
+    },
+    {
+      "sigel": "Afb",
+      "name": "Alingsås bibliotek",
+      "uri": "https://libris.kb.se/library/Afb"
+    },
+    {
+      "sigel": "Bthg",
+      "name": "Blekinge Tekniska Högskola",
+      "uri": "https://libris.kb.se/library/Bthg"
+    },
+    {
+      "sigel": "D",
+      "name": "Södertörns högskolebibliotek",
+      "uri": "https://libris.kb.se/library/D"
+    },
+    {
+      "sigel": "Es1",
+      "name": "Eskilstuna bibliotek",
+      "uri": "https://libris.kb.se/library/Es1"
+    },
+    {
+      "sigel": "Gav",
+      "name": "Gävle stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Gav"
+    },
+    {
+      "sigel": "Gbg",
+      "name": "Biblioteken i Göteborg",
+      "uri": "https://libris.kb.se/library/Gbg"
+    },
+    {
+      "sigel": "Gk",
+      "name": "Göteborgs universitetsbibliotek Samhällsvetenskapliga biblioteket",
+      "uri": "https://libris.kb.se/library/Gk"
+    },
+    {
+      "sigel": "Gm",
+      "name": "Göteborgs universitetsbibliotek Biomedicinska biblioteket",
+      "uri": "https://libris.kb.se/library/Gm"
+    },
+    {
+      "sigel": "H",
+      "name": "Stockholms universitet",
+      "uri": "https://libris.kb.se/library/H"
+    },
+    {
+      "sigel": "Hagf",
+      "name": "Hagfors bibliotek",
+      "uri": "https://libris.kb.se/library/Hagf"
+    },
+    {
+      "sigel": "Hdf",
+      "name": "Högskolan Dalarna",
+      "uri": "https://libris.kb.se/library/Hdf"
+    },
+    {
+      "sigel": "Hena",
+      "name": "Orusts kommunbibliotek",
+      "uri": "https://libris.kb.se/library/Hena"
+    },
+    {
+      "sigel": "Hig",
+      "name": "Högskolan i Gävle, biblioteket",
+      "uri": "https://libris.kb.se/library/Hig"
+    },
+    {
+      "sigel": "Htut",
+      "name": "Högskolan Väst",
+      "uri": "https://libris.kb.se/library/Htut"
+    },
+    {
+      "sigel": "Jon",
+      "name": "Högskolan i Jönköping, biblioteket",
+      "uri": "https://libris.kb.se/library/Jon"
+    },
+    {
+      "sigel": "Kas",
+      "name": "Sjukhusbiblioteken i Värmland",
+      "uri": "https://libris.kb.se/library/Kas"
+    },
+    {
+      "sigel": "Kd",
+      "name": "Karlstads universitetsbibliotek",
+      "uri": "https://libris.kb.se/library/Kd"
+    },
+    {
+      "sigel": "Kld1",
+      "name": "Karlstads stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Kld1"
+    },
+    {
+      "sigel": "L",
+      "name": "Lunds universitets bibliotek",
+      "uri": "https://libris.kb.se/library/L"
+    },
+    {
+      "sigel": "La",
+      "name": "Universitetsbiblioteket vid Luleå tekniska universitet",
+      "uri": "https://libris.kb.se/library/La"
+    },
+    {
+      "sigel": "Leru",
+      "name": "Lerums bibliotek",
+      "uri": "https://libris.kb.se/library/Leru"
+    },
+    {
+      "sigel": "Li",
+      "name": "Linköpings universitetsbibliotek",
+      "uri": "https://libris.kb.se/library/Li"
+    },
+    {
+      "sigel": "LnuK",
+      "name": "Linnéuniversitetet",
+      "uri": "https://libris.kb.se/library/LnuK"
+    },
+    {
+      "sigel": "LnuV",
+      "name": "Linnéuniversitetet",
+      "uri": "https://libris.kb.se/library/LnuV"
+    },
+    {
+      "sigel": "Lsam",
+      "name": "Lunds universitets bibliotek",
+      "uri": "https://libris.kb.se/library/Lsam"
+    },
+    {
+      "sigel": "Mah",
+      "name": "Malmö universitetsbibliotek",
+      "uri": "https://libris.kb.se/library/Mah"
+    },
+    {
+      "sigel": "Mchs",
+      "name": "Marie Cederschiöld högskolebibliotek",
+      "uri": "https://libris.kb.se/library/Mchs"
+    },
+    {
+      "sigel": "Mdv",
+      "name": "Mälardalens universitet, Västerås",
+      "uri": "https://libris.kb.se/library/Mdv"
+    },
+    {
+      "sigel": "Mho",
+      "name": "Mittuniversitetet",
+      "uri": "https://libris.kb.se/library/Mho"
+    },
+    {
+      "sigel": "Mhs",
+      "name": "Mittuniversitetet",
+      "uri": "https://libris.kb.se/library/Mhs"
+    },
+    {
+      "sigel": "Mo",
+      "name": "Malmö stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Mo"
+    },
+    {
+      "sigel": "Nass",
+      "name": "Nässjö stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Nass"
+    },
+    {
+      "sigel": "No",
+      "name": "Norrköpings stadsbibliotek",
+      "uri": "https://libris.kb.se/library/No"
+    },
+    {
+      "sigel": "Nyks",
+      "name": "Nyköpings stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Nyks"
+    },
+    {
+      "sigel": "O",
+      "name": "Örebro universitetsbibliotek",
+      "uri": "https://libris.kb.se/library/O"
+    },
+    {
+      "sigel": "Okb",
+      "name": "Örnsköldsviks bibliotek Arkenbiblioteket",
+      "uri": "https://libris.kb.se/library/Okb"
+    },
+    {
+      "sigel": "Or1",
+      "name": "Örebro bibliotek",
+      "uri": "https://libris.kb.se/library/Or1"
+    },
+    {
+      "sigel": "Q",
+      "name": "Umeå universitetsbibliotek",
+      "uri": "https://libris.kb.se/library/Q"
+    },
+    {
+      "sigel": "R",
+      "name": "Riksdagsbiblioteket",
+      "uri": "https://libris.kb.se/library/R"
+    },
+    {
+      "sigel": "S",
+      "name": "Kungliga biblioteket",
+      "uri": "https://libris.kb.se/library/S"
+    },
+    {
+      "sigel": "Sa",
+      "name": "Stockholms stadsarkiv",
+      "uri": "https://libris.kb.se/library/Sa"
+    },
+    {
+      "sigel": "Sha",
+      "name": "Handelshögskolan i Stockholm, biblioteket",
+      "uri": "https://libris.kb.se/library/Sha"
+    },
+    {
+      "sigel": "Skol",
+      "name": "Skolverket",
+      "uri": "https://libris.kb.se/library/Skol"
+    },
+    {
+      "sigel": "Skov",
+      "name": "Högskolan i Skövde, biblioteket",
+      "uri": "https://libris.kb.se/library/Skov"
+    },
+    {
+      "sigel": "Soph",
+      "name": "Sophiahemmet Högskola",
+      "uri": "https://libris.kb.se/library/Soph"
+    },
+    {
+      "sigel": "Udd",
+      "name": "Uddevalla stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Udd"
+    },
+    {
+      "sigel": "Uh",
+      "name": "Uppsala universitetsbibliotek",
+      "uri": "https://libris.kb.se/library/Uh"
+    },
+    {
+      "sigel": "Umdp",
+      "name": "Sveriges depåbibliotek",
+      "uri": "https://libris.kb.se/library/Umdp"
+    },
+    {
+      "sigel": "Vasb",
+      "name": "Västerås stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Vasb"
+    }
+  ],
+  "locations": {
+    "Es1": {
+      "latitude": 59.37249,
+      "longitude": 16.512601,
+      "city": "Eskilstuna",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Es1",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Gbg": {
+      "latitude": 57.697872,
+      "longitude": 11.979705,
+      "city": "Göteborg",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Gbg",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Kas": {
+      "latitude": 59.4021806,
+      "longitude": 13.5114977,
+      "city": "Karlstad",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Kas",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Soph": {
+      "latitude": 59.346465,
+      "longitude": 18.072476,
+      "city": "Stockholm",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Soph",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Or1": {
+      "latitude": 59.2687441,
+      "longitude": 15.2078372,
+      "city": "Örebro",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Or1",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Afb": {
+      "latitude": 57.92829,
+      "longitude": 12.533157,
+      "city": "Alingsås",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Afb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Gav": {
+      "latitude": 60.673181,
+      "longitude": 17.147058,
+      "city": "Gävle",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Gav",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Hagf": {
+      "latitude": 60.036943,
+      "longitude": 13.700874,
+      "city": "Hagfors",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Hagf",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Hena": {
+      "latitude": 58.238084,
+      "longitude": 11.678809,
+      "city": "Henån",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Hena",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Kld1": {
+      "latitude": 59.383679,
+      "longitude": 13.502985,
+      "city": "Karlstad",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Kld1",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Leru": {
+      "latitude": 57.773531,
+      "longitude": 12.275334,
+      "city": "Lerum",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Leru",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "No": {
+      "latitude": 58.5848798,
+      "longitude": 16.1884214,
+      "city": "Norrköping Paket över 2 kilo: Norrköpings stadsbibliotek Fjärrlån Nygatan 106 60234 Norrköping",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=No",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Nyks": {
+      "latitude": 58.753752,
+      "longitude": 17.007323,
+      "city": "Nyköping",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Nyks",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Nass": {
+      "latitude": 57.6539726,
+      "longitude": 14.6993553,
+      "city": "Nässjö",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Nass",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Sa": {
+      "latitude": 59.330154,
+      "longitude": 18.049528,
+      "city": "Stockholm",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Sa",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Udd": {
+      "latitude": 58.3478488,
+      "longitude": 11.934667,
+      "city": "Uddevalla",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Udd",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Umdp": {
+      "latitude": 63.82689,
+      "longitude": 20.265152,
+      "city": "Umeå",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Umdp",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Okb": {
+      "latitude": 63.2885935,
+      "longitude": 18.7135745,
+      "city": "Örnsköldsvik",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Okb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Jon": {
+      "latitude": 57.778298,
+      "longitude": 14.163315,
+      "city": "Jönköping",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Jon",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "D": {
+      "latitude": 59.219257,
+      "longitude": 17.941605,
+      "city": "Huddinge",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=D",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Gk": {
+      "latitude": 57.697796,
+      "longitude": 11.961773,
+      "city": "Göteborg",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Gk",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Gm": {
+      "latitude": 57.684033,
+      "longitude": 11.961303,
+      "city": "Göteborg",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Gm",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "H": {
+      "latitude": 59.362781,
+      "longitude": 18.057017,
+      "city": "Stockholm",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=H",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Hdf": {
+      "latitude": 60.614055,
+      "longitude": 15.65373,
+      "city": "Falun",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Hdf",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Hig": {
+      "latitude": 60.668569,
+      "longitude": 17.118804,
+      "city": "Gävle",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Hig",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Bthg": {
+      "latitude": 56.180645,
+      "longitude": 15.590712,
+      "city": "Karlskrona",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Bthg",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Htut": {
+      "latitude": 58.282394,
+      "longitude": 12.29008,
+      "city": "Trollhättan",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Htut",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Kd": {
+      "latitude": 59.405813,
+      "longitude": 13.581957,
+      "city": "Karlstad",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Kd",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "L": {
+      "latitude": 55.709052,
+      "longitude": 13.197318,
+      "city": "Lund",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=L",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Li": {
+      "latitude": 58.3961796914199,
+      "longitude": 15.5773901939392,
+      "city": "Linköping",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Li",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "La": {
+      "latitude": 65.618356,
+      "longitude": 22.139812,
+      "city": "Luleå",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=La",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Mah": {
+      "latitude": 55.610846,
+      "longitude": 12.995377,
+      "city": "Malmö",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Mah",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Mdv": {
+      "latitude": 59.618601,
+      "longitude": 16.540657,
+      "city": "Västerås",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Mdv",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Mhs": {
+      "latitude": 62.394627,
+      "longitude": 17.284215,
+      "city": "Sundsvall",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Mhs",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Mho": {
+      "latitude": 63.176974,
+      "longitude": 14.649512,
+      "city": "Östersund",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Mho",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Mo": {
+      "latitude": 55.60053,
+      "longitude": 12.994148,
+      "city": "Malmö",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Mo",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Q": {
+      "latitude": 63.823181,
+      "longitude": 20.305824,
+      "city": "Umeå",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Q",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "R": {
+      "latitude": 59.325744,
+      "longitude": 18.067789,
+      "city": "Stockholm",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=R",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "S": {
+      "latitude": 59.337534,
+      "longitude": 18.071651,
+      "city": "Stockholm",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=S",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Sha": {
+      "latitude": 59.341696,
+      "longitude": 18.057244,
+      "city": "Stockholm",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Sha",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Skol": {
+      "latitude": 59.335825,
+      "longitude": 18.031191,
+      "city": "Solna",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Skol",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Skov": {
+      "latitude": 58.393244,
+      "longitude": 13.853171,
+      "city": "Skövde",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Skov",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Uh": {
+      "latitude": 59.853868,
+      "longitude": 17.631083,
+      "city": "Uppsala",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Uh",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "O": {
+      "latitude": 59.254354,
+      "longitude": 15.2513,
+      "city": "Örebro",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=O",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Vasb": {
+      "latitude": 59.612794,
+      "longitude": 16.543142,
+      "city": "Västerås",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Vasb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Mchs": {
+      "latitude": 59.316602,
+      "longitude": 18.086491,
+      "city": "Stockholm",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Mchs",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "LnuK": {
+      "latitude": 56.666125,
+      "longitude": 16.348442,
+      "city": "Kalmar",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=LnuK",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "LnuV": {
+      "latitude": 56.855267,
+      "longitude": 14.8301,
+      "city": "Växjö",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=LnuV",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Lsam": {
+      "latitude": 55.708521,
+      "longitude": 13.194494,
+      "city": "",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Lsam",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "7Lkp": {
+      "latitude": null,
+      "longitude": null,
+      "city": "Linköping",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=7Lkp",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    }
+  },
+  "directory_checked_at": "2026-10-20T23:56:24+00:00"
+}
