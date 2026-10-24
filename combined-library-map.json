@@ -6756,6 +6756,10 @@
       "name": "Biblioteket anstalten Viskan"
     },
     {
+      "sigel": "7Ban",
+      "name": "Biblioteket anstalten Norrtälje"
+    },
+    {
       "sigel": "7Bas",
       "name": "Båstads skolor"
     },
@@ -7000,6 +7004,10 @@
       "name": "Nora kommuns skolor"
     },
     {
+      "sigel": "7Nsb",
+      "name": "Nässjö skolor"
+    },
+    {
       "sigel": "7Nym",
       "name": "Nya Munken"
     },
@@ -7102,6 +7110,10 @@
     {
       "sigel": "7Tan",
       "name": "Tannbergsskolans bibliotek"
+    },
+    {
+      "sigel": "7Tgb",
+      "name": "Tyresö gymnasium"
     },
     {
       "sigel": "7Tgy",
@@ -8016,7 +8028,7 @@
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     }
   ],
-  "participant_count": 917,
+  "participant_count": 920,
   "map_version": 2,
   "combined": true,
   "earlier": {
@@ -8034,7 +8046,7 @@
     "count": 25
   },
   "both_count": 9,
-  "participant_checked_at": "2026-10-17T10:20:19+00:00",
+  "participant_checked_at": "2026-10-24T14:46:34+00:00",
   "participant_cached": false,
   "directory_checked_at": "2026-10-20T23:56:24+00:00",
   "cached_coordinates": false
