@@ -3,9 +3,9 @@
   "isbn": "9789147158324",
   "libris_id": "c0qkzx1t9hs5ml77",
   "timezone": "Europe/Stockholm",
-  "date": "2026-10-26",
-  "checked_at": "2026-10-26T09:18:08+00:00",
-  "count": 25,
+  "date": "2026-10-27",
+  "checked_at": "2026-10-26T23:16:25+00:00",
+  "count": 26,
   "libraries": [
     {
       "sigel": "Afb",
@@ -46,6 +46,11 @@
       "sigel": "Btj",
       "name": "BTJ",
       "uri": "https://libris.kb.se/library/Btj"
+    },
+    {
+      "sigel": "Lyck",
+      "name": "Härryda folkbibliotek",
+      "uri": "https://libris.kb.se/library/Lyck"
     },
     {
       "sigel": "Hdf",
@@ -135,8 +140,10 @@
   ],
   "changes": {
     "baseline": false,
-    "compared_to": "2026-10-25",
-    "added": [],
+    "compared_to": "2026-10-26",
+    "added": [
+      "Lyck"
+    ],
     "removed": []
   }
 }

@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-26",
-  "checked_at": "2026-10-26T09:18:08+00:00",
+  "date": "2026-10-27",
+  "checked_at": "2026-10-26T23:16:25+00:00",
   "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
-  "count": 25,
+  "count": 26,
   "libraries": [
     {
       "sigel": "Afb",
@@ -98,6 +98,18 @@
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Btj",
       "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
       "first_seen": "2026-10-07",
+      "representative": false
+    },
+    {
+      "sigel": "Lyck",
+      "name": "Härryda folkbibliotek",
+      "uri": "https://libris.kb.se/library/Lyck",
+      "latitude": 57.658667,
+      "longitude": 12.117813,
+      "city": "Mölnlycke",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Lyck",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
+      "first_seen": "2026-10-27",
       "representative": false
     },
     {
@@ -306,7 +318,7 @@
     }
   ],
   "unmapped": [],
-  "directory_checked_at": "2026-10-26T09:18:09+00:00",
+  "directory_checked_at": "2026-10-26T23:16:27+00:00",
   "cached_coordinates": false,
   "other_libraries": [
     {
@@ -3695,17 +3707,6 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Lyb",
-      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
-    },
-    {
-      "sigel": "Lyck",
-      "name": "Härryda folkbibliotek",
-      "uri": "https://libris.kb.se/library/Lyck",
-      "latitude": 57.658667,
-      "longitude": 12.117813,
-      "city": "",
-      "country_code": "se",
-      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Lyck",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
     {

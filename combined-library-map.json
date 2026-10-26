@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-26",
-  "checked_at": "2026-10-26T09:18:08+00:00",
+  "date": "2026-10-27",
+  "checked_at": "2026-10-26T23:16:25+00:00",
   "title": "Combined book holdings",
-  "count": 66,
+  "count": 67,
   "libraries": [
     {
       "sigel": "Afb",
@@ -210,6 +210,20 @@
       "longitude": 18.057244,
       "city": "Stockholm",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Sha",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
+      "first_seen": null,
+      "representative": false
+    },
+    {
+      "sigel": "Lyck",
+      "name": "Härryda folkbibliotek",
+      "uri": "https://libris.kb.se/library/Lyck",
+      "holds_earlier": false,
+      "holds_current": true,
+      "latitude": 57.658667,
+      "longitude": 12.117813,
+      "city": "Mölnlycke",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Lyck",
       "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
       "first_seen": null,
       "representative": false
@@ -4091,17 +4105,6 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Lyb",
-      "note": "Active Libris participant; no registered holding for either edition in the two observations. A network dot represents one directory location."
-    },
-    {
-      "sigel": "Lyck",
-      "name": "Härryda folkbibliotek",
-      "uri": "https://libris.kb.se/library/Lyck",
-      "latitude": 57.658667,
-      "longitude": 12.117813,
-      "city": "",
-      "country_code": "se",
-      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Lyck",
       "note": "Active Libris participant; no registered holding for either edition in the two observations. A network dot represents one directory location."
     },
     {
@@ -8041,9 +8044,9 @@
   "current": {
     "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
     "libris_id": "c0qkzx1t9hs5ml77",
-    "date": "2026-10-26",
-    "checked_at": "2026-10-26T09:18:08+00:00",
-    "count": 25
+    "date": "2026-10-27",
+    "checked_at": "2026-10-26T23:16:25+00:00",
+    "count": 26
   },
   "both_count": 9,
   "participant_checked_at": "2026-10-24T14:46:34+00:00",
