@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-27",
-  "checked_at": "2026-10-26T23:16:25+00:00",
+  "date": "2026-10-28",
+  "checked_at": "2026-10-27T23:05:16+00:00",
   "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
-  "count": 26,
+  "count": 27,
   "libraries": [
     {
       "sigel": "Afb",
@@ -14,6 +14,18 @@
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Afb",
       "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
       "first_seen": "2026-10-07",
+      "representative": false
+    },
+    {
+      "sigel": "Botb",
+      "name": "Bibliotek Botkyrka",
+      "uri": "https://libris.kb.se/library/Botb",
+      "latitude": 59.1988632,
+      "longitude": 17.8345427,
+      "city": "Tumba",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Botb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
+      "first_seen": "2026-10-28",
       "representative": false
     },
     {
@@ -318,7 +330,7 @@
     }
   ],
   "unmapped": [],
-  "directory_checked_at": "2026-10-26T23:16:27+00:00",
+  "directory_checked_at": "2026-10-27T23:05:17+00:00",
   "cached_coordinates": false,
   "other_libraries": [
     {
@@ -891,17 +903,6 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Borg",
-      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
-    },
-    {
-      "sigel": "Botb",
-      "name": "Bibliotek Botkyrka",
-      "uri": "https://libris.kb.se/library/Botb",
-      "latitude": 59.1988632,
-      "longitude": 17.8345427,
-      "city": "",
-      "country_code": "se",
-      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Botb",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
     {

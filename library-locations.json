@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T23:16:27+00:00",
+  "checked_at": "2026-10-27T23:05:17+00:00",
   "libraries": {
     "Bo": {
       "latitude": 57.721064,
@@ -167,6 +167,13 @@
       "longitude": 13.194494,
       "city": "",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Lsam",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Botb": {
+      "latitude": 59.1988632,
+      "longitude": 17.8345427,
+      "city": "Tumba",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Botb",
       "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
     },
     "7Up": {

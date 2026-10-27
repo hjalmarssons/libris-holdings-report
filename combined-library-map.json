@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-27",
-  "checked_at": "2026-10-26T23:16:25+00:00",
+  "date": "2026-10-28",
+  "checked_at": "2026-10-27T23:05:16+00:00",
   "title": "Combined book holdings",
-  "count": 67,
+  "count": 68,
   "libraries": [
     {
       "sigel": "Afb",
@@ -14,6 +14,20 @@
       "longitude": 12.533157,
       "city": "Alingsås",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Afb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
+      "first_seen": null,
+      "representative": false
+    },
+    {
+      "sigel": "Botb",
+      "name": "Bibliotek Botkyrka",
+      "uri": "https://libris.kb.se/library/Botb",
+      "holds_earlier": false,
+      "holds_current": true,
+      "latitude": 59.1988632,
+      "longitude": 17.8345427,
+      "city": "Tumba",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Botb",
       "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
       "first_seen": null,
       "representative": false
@@ -1509,17 +1523,6 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Borg",
-      "note": "Active Libris participant; no registered holding for either edition in the two observations. A network dot represents one directory location."
-    },
-    {
-      "sigel": "Botb",
-      "name": "Bibliotek Botkyrka",
-      "uri": "https://libris.kb.se/library/Botb",
-      "latitude": 59.1988632,
-      "longitude": 17.8345427,
-      "city": "",
-      "country_code": "se",
-      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Botb",
       "note": "Active Libris participant; no registered holding for either edition in the two observations. A network dot represents one directory location."
     },
     {
@@ -8044,9 +8047,9 @@
   "current": {
     "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
     "libris_id": "c0qkzx1t9hs5ml77",
-    "date": "2026-10-27",
-    "checked_at": "2026-10-26T23:16:25+00:00",
-    "count": 26
+    "date": "2026-10-28",
+    "checked_at": "2026-10-27T23:05:16+00:00",
+    "count": 27
   },
   "both_count": 9,
   "participant_checked_at": "2026-10-24T14:46:34+00:00",
