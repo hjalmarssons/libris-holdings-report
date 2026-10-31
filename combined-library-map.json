@@ -7058,6 +7058,10 @@
       "name": "Perstorps skolor"
     },
     {
+      "sigel": "7Sal",
+      "name": "Biblioteket anstalten Saltvik"
+    },
+    {
       "sigel": "7Sat",
       "name": "Säter skolbibliotek"
     },
@@ -8034,7 +8038,7 @@
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     }
   ],
-  "participant_count": 920,
+  "participant_count": 921,
   "map_version": 2,
   "combined": true,
   "earlier": {
@@ -8052,7 +8056,7 @@
     "count": 27
   },
   "both_count": 9,
-  "participant_checked_at": "2026-10-24T14:46:34+00:00",
+  "participant_checked_at": "2026-10-31T16:16:40+00:00",
   "participant_cached": false,
   "directory_checked_at": "2026-10-20T23:56:24+00:00",
   "cached_coordinates": false
