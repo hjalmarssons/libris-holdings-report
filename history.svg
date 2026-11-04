@@ -16,65 +16,67 @@
 <text x="55" y="155.0" text-anchor="end">40</text>
 <path d="M70 95.0H870" stroke="#e2e8f0"/>
 <text x="55" y="100.0" text-anchor="end">50</text>
-<path d="M70.0 265.5L99.6 265.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M99.6 265.5L129.3 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M129.3 254.5L158.9 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M158.9 254.5L188.5 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M188.5 254.5L218.1 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M218.1 254.5L247.8 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M247.8 243.5L277.4 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M277.4 243.5L307.0 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M307.0 243.5L336.7 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M336.7 243.5L366.3 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M366.3 238.0L395.9 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M395.9 238.0L425.6 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M425.6 238.0L455.2 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M455.2 232.5L484.8 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M484.8 232.5L514.4 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M514.4 232.5L544.1 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M544.1 232.5L573.7 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M573.7 232.5L603.3 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M603.3 232.5L633.0 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M633.0 232.5L662.6 227.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M662.6 227.0L692.2 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M692.2 221.5L721.9 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M721.9 221.5L751.5 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M751.5 221.5L781.1 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M781.1 221.5L810.7 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M810.7 221.5L840.4 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
-<path d="M840.4 221.5L870.0 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M70.0 265.5L98.6 265.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M98.6 265.5L127.1 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M127.1 254.5L155.7 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M155.7 254.5L184.3 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M184.3 254.5L212.9 254.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M212.9 254.5L241.4 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M241.4 243.5L270.0 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M270.0 243.5L298.6 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M298.6 243.5L327.1 243.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M327.1 243.5L355.7 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M355.7 238.0L384.3 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M384.3 238.0L412.9 238.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M412.9 238.0L441.4 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M441.4 232.5L470.0 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M470.0 232.5L498.6 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M498.6 232.5L527.1 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M527.1 232.5L555.7 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M555.7 232.5L584.3 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M584.3 232.5L612.9 232.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M612.9 232.5L641.4 227.0" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M641.4 227.0L670.0 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M670.0 221.5L698.6 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M698.6 221.5L727.1 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M727.1 221.5L755.7 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M755.7 221.5L784.3 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M784.3 221.5L812.9 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M812.9 221.5L841.4 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M841.4 221.5L870.0 221.5" stroke="#2563eb" stroke-width="2.5" fill="none"/>
 <circle cx="70.0" cy="265.5" r="3.5" fill="#2563eb"><title>2026-10-07: 19 libraries</title></circle>
-<circle cx="99.6" cy="265.5" r="3.5" fill="#2563eb"><title>2026-10-08: 19 libraries</title></circle>
-<circle cx="129.3" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-09: 21 libraries</title></circle>
-<circle cx="158.9" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-10: 21 libraries</title></circle>
-<circle cx="188.5" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-11: 21 libraries</title></circle>
-<circle cx="218.1" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-12: 21 libraries</title></circle>
-<circle cx="247.8" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-13: 23 libraries</title></circle>
-<circle cx="277.4" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-14: 23 libraries</title></circle>
-<circle cx="307.0" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-15: 23 libraries</title></circle>
-<circle cx="336.7" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-16: 23 libraries</title></circle>
-<circle cx="366.3" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-17: 24 libraries</title></circle>
-<circle cx="395.9" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-18: 24 libraries</title></circle>
-<circle cx="425.6" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-19: 24 libraries</title></circle>
-<circle cx="455.2" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-20: 25 libraries</title></circle>
-<circle cx="484.8" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-21: 25 libraries</title></circle>
-<circle cx="514.4" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-22: 25 libraries</title></circle>
-<circle cx="544.1" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-23: 25 libraries</title></circle>
-<circle cx="573.7" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-24: 25 libraries</title></circle>
-<circle cx="603.3" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-25: 25 libraries</title></circle>
-<circle cx="633.0" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-26: 25 libraries</title></circle>
-<circle cx="662.6" cy="227.0" r="3.5" fill="#2563eb"><title>2026-10-27: 26 libraries</title></circle>
-<circle cx="692.2" cy="221.5" r="3.5" fill="#2563eb"><title>2026-10-28: 27 libraries</title></circle>
-<circle cx="721.9" cy="221.5" r="3.5" fill="#2563eb"><title>2026-10-29: 27 libraries</title></circle>
-<circle cx="751.5" cy="221.5" r="3.5" fill="#2563eb"><title>2026-10-30: 27 libraries</title></circle>
-<circle cx="781.1" cy="221.5" r="3.5" fill="#2563eb"><title>2026-10-31: 27 libraries</title></circle>
-<circle cx="810.7" cy="221.5" r="3.5" fill="#2563eb"><title>2026-11-01: 27 libraries</title></circle>
-<circle cx="840.4" cy="221.5" r="3.5" fill="#2563eb"><title>2026-11-02: 27 libraries</title></circle>
-<circle cx="870.0" cy="221.5" r="3.5" fill="#2563eb"><title>2026-11-03: 27 libraries</title></circle>
+<circle cx="98.6" cy="265.5" r="3.5" fill="#2563eb"><title>2026-10-08: 19 libraries</title></circle>
+<circle cx="127.1" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-09: 21 libraries</title></circle>
+<circle cx="155.7" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-10: 21 libraries</title></circle>
+<circle cx="184.3" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-11: 21 libraries</title></circle>
+<circle cx="212.9" cy="254.5" r="3.5" fill="#2563eb"><title>2026-10-12: 21 libraries</title></circle>
+<circle cx="241.4" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-13: 23 libraries</title></circle>
+<circle cx="270.0" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-14: 23 libraries</title></circle>
+<circle cx="298.6" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-15: 23 libraries</title></circle>
+<circle cx="327.1" cy="243.5" r="3.5" fill="#2563eb"><title>2026-10-16: 23 libraries</title></circle>
+<circle cx="355.7" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-17: 24 libraries</title></circle>
+<circle cx="384.3" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-18: 24 libraries</title></circle>
+<circle cx="412.9" cy="238.0" r="3.5" fill="#2563eb"><title>2026-10-19: 24 libraries</title></circle>
+<circle cx="441.4" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-20: 25 libraries</title></circle>
+<circle cx="470.0" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-21: 25 libraries</title></circle>
+<circle cx="498.6" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-22: 25 libraries</title></circle>
+<circle cx="527.1" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-23: 25 libraries</title></circle>
+<circle cx="555.7" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-24: 25 libraries</title></circle>
+<circle cx="584.3" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-25: 25 libraries</title></circle>
+<circle cx="612.9" cy="232.5" r="3.5" fill="#2563eb"><title>2026-10-26: 25 libraries</title></circle>
+<circle cx="641.4" cy="227.0" r="3.5" fill="#2563eb"><title>2026-10-27: 26 libraries</title></circle>
+<circle cx="670.0" cy="221.5" r="3.5" fill="#2563eb"><title>2026-10-28: 27 libraries</title></circle>
+<circle cx="698.6" cy="221.5" r="3.5" fill="#2563eb"><title>2026-10-29: 27 libraries</title></circle>
+<circle cx="727.1" cy="221.5" r="3.5" fill="#2563eb"><title>2026-10-30: 27 libraries</title></circle>
+<circle cx="755.7" cy="221.5" r="3.5" fill="#2563eb"><title>2026-10-31: 27 libraries</title></circle>
+<circle cx="784.3" cy="221.5" r="3.5" fill="#2563eb"><title>2026-11-01: 27 libraries</title></circle>
+<circle cx="812.9" cy="221.5" r="3.5" fill="#2563eb"><title>2026-11-02: 27 libraries</title></circle>
+<circle cx="841.4" cy="221.5" r="3.5" fill="#2563eb"><title>2026-11-03: 27 libraries</title></circle>
+<circle cx="870.0" cy="221.5" r="3.5" fill="#2563eb"><title>2026-11-04: 27 libraries</title></circle>
 <text x="70.0" y="395" text-anchor="start">2026-10-07</text>
-<text x="277.4" y="395" text-anchor="middle">2026-10-14</text>
-<text x="484.8" y="395" text-anchor="middle">2026-10-21</text>
-<text x="662.6" y="395" text-anchor="middle">2026-10-27</text>
-<text x="870.0" y="395" text-anchor="end">2026-11-03</text>
+<text x="270.0" y="395" text-anchor="middle">2026-10-14</text>
+<text x="470.0" y="395" text-anchor="middle">2026-10-21</text>
+<text x="670.0" y="395" text-anchor="middle">2026-10-28</text>
+<text x="870.0" y="395" text-anchor="end">2026-11-04</text>
 <text x="450" y="425" text-anchor="middle">Observation date (Europe/Stockholm)</text>
 </g></svg>
