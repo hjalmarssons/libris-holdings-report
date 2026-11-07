@@ -330,7 +330,7 @@
     }
   ],
   "unmapped": [],
-  "directory_checked_at": "2026-11-06T23:47:30+00:00",
+  "directory_checked_at": "2026-11-07T16:58:15+00:00",
   "cached_coordinates": false,
   "other_libraries": [
     {
@@ -6522,6 +6522,10 @@
       "name": "Test förkortad katalogisering"
     },
     {
+      "sigel": "7Agb",
+      "name": "Aleholmsgymnasiet"
+    },
+    {
       "sigel": "7Ahi",
       "name": "Biblioteket anstalten Hinseberg"
     },
@@ -7862,8 +7866,8 @@
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     }
   ],
-  "participant_count": 921,
+  "participant_count": 922,
   "map_version": 2,
-  "participant_checked_at": "2026-10-31T16:16:40+00:00",
+  "participant_checked_at": "2026-11-07T16:58:21+00:00",
   "participant_cached": false
 }

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-31T16:16:40+00:00",
+  "checked_at": "2026-11-07T16:58:21+00:00",
   "libraries": {
     "Bo": {
       "sigel": "Bo",
@@ -725,17 +725,6 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Axi",
-      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
-    },
-    "BoE": {
-      "sigel": "BoE",
-      "name": "Borås stadsbibliotek e-böcker",
-      "uri": "https://libris.kb.se/library/BoE",
-      "latitude": 57.721064,
-      "longitude": 12.947793,
-      "city": "",
-      "country_code": "se",
-      "source": "https://bibdb.libris.kb.se/api/lib?sigel=BoE",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
     "AfrE": {
@@ -2201,6 +2190,17 @@
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=7Sal",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
+    "7Agb": {
+      "sigel": "7Agb",
+      "name": "Aleholmsgymnasiet",
+      "uri": "https://libris.kb.se/library/7Agb",
+      "latitude": null,
+      "longitude": null,
+      "city": "",
+      "country_code": "se",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=7Agb",
+      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
+    },
     "Das": {
       "sigel": "Das",
       "name": "Danderyds sjukhus",
@@ -3035,17 +3035,6 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Hoor",
-      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
-    },
-    "Jlm": {
-      "sigel": "Jlm",
-      "name": "Jamtli museum",
-      "uri": "https://libris.kb.se/library/Jlm",
-      "latitude": 63.1875012,
-      "longitude": 14.6367864,
-      "city": "",
-      "country_code": "se",
-      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Jlm",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
     "Jflb": {
@@ -4181,6 +4170,17 @@
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=HsdE",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
+    "BoE": {
+      "sigel": "BoE",
+      "name": "Borås stadsbibliotek e-böcker",
+      "uri": "https://libris.kb.se/library/BoE",
+      "latitude": 57.721064,
+      "longitude": 12.947793,
+      "city": "",
+      "country_code": "se",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=BoE",
+      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
+    },
     "Cfn": {
       "sigel": "Cfn",
       "name": "Centrum för Näringslivshistoria",
@@ -4531,6 +4531,17 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Mos",
+      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
+    },
+    "Jlm": {
+      "sigel": "Jlm",
+      "name": "Jamtli museum",
+      "uri": "https://libris.kb.se/library/Jlm",
+      "latitude": 63.1875012,
+      "longitude": 14.6367864,
+      "city": "",
+      "country_code": "se",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Jlm",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
     "Jokk": {
@@ -6005,17 +6016,6 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Mchs",
-      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
-    },
-    "Nmfb": {
-      "sigel": "Nmfb",
-      "name": "Nobelmuseets forskningsbibliotek",
-      "uri": "https://libris.kb.se/library/Nmfb",
-      "latitude": 59.32518,
-      "longitude": 18.070779,
-      "city": "",
-      "country_code": "se",
-      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Nmfb",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
     "Ldig": {
@@ -8229,17 +8229,6 @@
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=OSGO",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
-    "Svk": {
-      "sigel": "Svk",
-      "name": "Studio Västsvensk konservering",
-      "uri": "https://libris.kb.se/library/Svk",
-      "latitude": 57.725401,
-      "longitude": 12.007637,
-      "city": "",
-      "country_code": "se",
-      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Svk",
-      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
-    },
     "Sgm": {
       "sigel": "Sgm",
       "name": "Strindbergsmuseet",
@@ -8260,6 +8249,17 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Rmvg",
+      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
+    },
+    "Nmfb": {
+      "sigel": "Nmfb",
+      "name": "Nobelmuseets forskningsbibliotek",
+      "uri": "https://libris.kb.se/library/Nmfb",
+      "latitude": 59.32518,
+      "longitude": 18.070779,
+      "city": "",
+      "country_code": "se",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Nmfb",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
     "Rir": {
@@ -9767,6 +9767,17 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Sx",
+      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
+    },
+    "Svk": {
+      "sigel": "Svk",
+      "name": "Studio Västsvensk konservering",
+      "uri": "https://libris.kb.se/library/Svk",
+      "latitude": 57.725401,
+      "longitude": 12.007637,
+      "city": "",
+      "country_code": "se",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Svk",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
     "Vim": {
