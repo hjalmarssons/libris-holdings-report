@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-10",
-  "checked_at": "2026-11-09T23:50:14+00:00",
+  "date": "2026-11-11",
+  "checked_at": "2026-11-11T11:23:37+00:00",
   "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
-  "count": 27,
+  "count": 28,
   "libraries": [
     {
       "sigel": "Afb",
@@ -329,8 +329,14 @@
       "representative": false
     }
   ],
-  "unmapped": [],
-  "directory_checked_at": "2026-11-09T23:50:15+00:00",
+  "unmapped": [
+    {
+      "sigel": "7Kka",
+      "name": "Karlskronas skolor",
+      "uri": "https://libris.kb.se/library/7Kka"
+    }
+  ],
+  "directory_checked_at": "2026-11-11T11:23:38+00:00",
   "cached_coordinates": false,
   "other_libraries": [
     {
@@ -6732,10 +6738,6 @@
     {
       "sigel": "7Khk",
       "name": "Karlshamns skolbibliotek"
-    },
-    {
-      "sigel": "7Kka",
-      "name": "Karlskronas skolor"
     },
     {
       "sigel": "7Kri",

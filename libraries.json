@@ -3,9 +3,9 @@
   "isbn": "9789147158324",
   "libris_id": "c0qkzx1t9hs5ml77",
   "timezone": "Europe/Stockholm",
-  "date": "2026-11-10",
-  "checked_at": "2026-11-09T23:50:14+00:00",
-  "count": 27,
+  "date": "2026-11-11",
+  "checked_at": "2026-11-11T11:23:37+00:00",
+  "count": 28,
   "libraries": [
     {
       "sigel": "Afb",
@@ -66,6 +66,11 @@
       "sigel": "Hib",
       "name": "Högskolan i Borås",
       "uri": "https://libris.kb.se/library/Hib"
+    },
+    {
+      "sigel": "7Kka",
+      "name": "Karlskronas skolor",
+      "uri": "https://libris.kb.se/library/7Kka"
     },
     {
       "sigel": "Ch",
@@ -145,8 +150,10 @@
   ],
   "changes": {
     "baseline": false,
-    "compared_to": "2026-11-09",
-    "added": [],
+    "compared_to": "2026-11-10",
+    "added": [
+      "7Kka"
+    ],
     "removed": []
   }
 }

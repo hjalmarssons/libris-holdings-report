@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-10",
-  "checked_at": "2026-11-09T23:50:14+00:00",
+  "date": "2026-11-11",
+  "checked_at": "2026-11-11T11:23:37+00:00",
   "title": "Combined book holdings",
-  "count": 68,
+  "count": 69,
   "libraries": [
     {
       "sigel": "Afb",
@@ -944,6 +944,13 @@
     }
   ],
   "unmapped": [
+    {
+      "sigel": "7Kka",
+      "name": "Karlskronas skolor",
+      "uri": "https://libris.kb.se/library/7Kka",
+      "holds_earlier": false,
+      "holds_current": true
+    },
     {
       "sigel": "7Lkp",
       "name": "Linköpings skolor",
@@ -6914,10 +6921,6 @@
       "name": "Karlshamns skolbibliotek"
     },
     {
-      "sigel": "7Kka",
-      "name": "Karlskronas skolor"
-    },
-    {
       "sigel": "7Kri",
       "name": "Kristianstads skolor"
     },
@@ -8055,9 +8058,9 @@
   "current": {
     "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
     "libris_id": "c0qkzx1t9hs5ml77",
-    "date": "2026-11-10",
-    "checked_at": "2026-11-09T23:50:14+00:00",
-    "count": 27
+    "date": "2026-11-11",
+    "checked_at": "2026-11-11T11:23:37+00:00",
+    "count": 28
   },
   "both_count": 9,
   "participant_checked_at": "2026-11-07T16:58:21+00:00",
