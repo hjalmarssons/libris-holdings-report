@@ -3,9 +3,9 @@
   "isbn": "9789147158324",
   "libris_id": "c0qkzx1t9hs5ml77",
   "timezone": "Europe/Stockholm",
-  "date": "2026-11-11",
-  "checked_at": "2026-11-11T11:23:37+00:00",
-  "count": 28,
+  "date": "2026-11-12",
+  "checked_at": "2026-11-12T01:38:31+00:00",
+  "count": 30,
   "libraries": [
     {
       "sigel": "Afb",
@@ -103,6 +103,11 @@
       "uri": "https://libris.kb.se/library/Nyks"
     },
     {
+      "sigel": "R",
+      "name": "Riksdagsbiblioteket",
+      "uri": "https://libris.kb.se/library/R"
+    },
+    {
       "sigel": "Solb",
       "name": "Solna stadsbibliotek",
       "uri": "https://libris.kb.se/library/Solb"
@@ -143,6 +148,11 @@
       "uri": "https://libris.kb.se/library/7Vax"
     },
     {
+      "sigel": "Or1",
+      "name": "Örebro bibliotek",
+      "uri": "https://libris.kb.se/library/Or1"
+    },
+    {
       "sigel": "O",
       "name": "Örebro universitetsbibliotek",
       "uri": "https://libris.kb.se/library/O"
@@ -150,9 +160,10 @@
   ],
   "changes": {
     "baseline": false,
-    "compared_to": "2026-11-10",
+    "compared_to": "2026-11-11",
     "added": [
-      "7Kka"
+      "Or1",
+      "R"
     ],
     "removed": []
   }

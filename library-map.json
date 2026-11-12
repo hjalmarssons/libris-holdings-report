@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-11",
-  "checked_at": "2026-11-11T11:23:37+00:00",
+  "date": "2026-11-12",
+  "checked_at": "2026-11-12T01:38:31+00:00",
   "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
-  "count": 28,
+  "count": 30,
   "libraries": [
     {
       "sigel": "Afb",
@@ -221,6 +221,18 @@
       "representative": false
     },
     {
+      "sigel": "R",
+      "name": "Riksdagsbiblioteket",
+      "uri": "https://libris.kb.se/library/R",
+      "latitude": 59.325744,
+      "longitude": 18.067789,
+      "city": "Stockholm",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=R",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
+      "first_seen": "2026-11-12",
+      "representative": false
+    },
+    {
       "sigel": "Solb",
       "name": "Solna stadsbibliotek",
       "uri": "https://libris.kb.se/library/Solb",
@@ -317,6 +329,18 @@
       "representative": true
     },
     {
+      "sigel": "Or1",
+      "name": "Örebro bibliotek",
+      "uri": "https://libris.kb.se/library/Or1",
+      "latitude": 59.2687441,
+      "longitude": 15.2078372,
+      "city": "Örebro",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Or1",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
+      "first_seen": "2026-11-12",
+      "representative": false
+    },
+    {
       "sigel": "O",
       "name": "Örebro universitetsbibliotek",
       "uri": "https://libris.kb.se/library/O",
@@ -336,7 +360,7 @@
       "uri": "https://libris.kb.se/library/7Kka"
     }
   ],
-  "directory_checked_at": "2026-11-11T18:50:45+00:00",
+  "directory_checked_at": "2026-11-12T01:38:32+00:00",
   "cached_coordinates": false,
   "other_libraries": [
     {
@@ -4410,17 +4434,6 @@
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
     {
-      "sigel": "Or1",
-      "name": "Örebro bibliotek",
-      "uri": "https://libris.kb.se/library/Or1",
-      "latitude": 59.2687441,
-      "longitude": 15.2078372,
-      "city": "",
-      "country_code": "se",
-      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Or1",
-      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
-    },
-    {
       "sigel": "Orke",
       "name": "Örkelljunga bibliotek",
       "uri": "https://libris.kb.se/library/Orke",
@@ -4682,17 +4695,6 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=QLIT",
-      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
-    },
-    {
-      "sigel": "R",
-      "name": "Riksdagsbiblioteket",
-      "uri": "https://libris.kb.se/library/R",
-      "latitude": 59.325744,
-      "longitude": 18.067789,
-      "city": "",
-      "country_code": "se",
-      "source": "https://bibdb.libris.kb.se/api/lib?sigel=R",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
     {

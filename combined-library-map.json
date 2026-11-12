@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-11",
-  "checked_at": "2026-11-11T11:23:37+00:00",
+  "date": "2026-11-12",
+  "checked_at": "2026-11-12T01:38:31+00:00",
   "title": "Combined book holdings",
   "count": 69,
   "libraries": [
@@ -625,7 +625,7 @@
       "name": "Riksdagsbiblioteket",
       "uri": "https://libris.kb.se/library/R",
       "holds_earlier": true,
-      "holds_current": false,
+      "holds_current": true,
       "latitude": 59.325744,
       "longitude": 18.067789,
       "city": "Stockholm",
@@ -905,7 +905,7 @@
       "name": "Örebro bibliotek",
       "uri": "https://libris.kb.se/library/Or1",
       "holds_earlier": true,
-      "holds_current": false,
+      "holds_current": true,
       "latitude": 59.2687441,
       "longitude": 15.2078372,
       "city": "Örebro",
@@ -8058,11 +8058,11 @@
   "current": {
     "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
     "libris_id": "c0qkzx1t9hs5ml77",
-    "date": "2026-11-11",
-    "checked_at": "2026-11-11T11:23:37+00:00",
-    "count": 28
+    "date": "2026-11-12",
+    "checked_at": "2026-11-12T01:38:31+00:00",
+    "count": 30
   },
-  "both_count": 9,
+  "both_count": 11,
   "participant_checked_at": "2026-11-07T16:58:21+00:00",
   "participant_cached": false,
   "directory_checked_at": "2026-10-20T23:56:24+00:00",

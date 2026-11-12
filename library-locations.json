@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T18:50:45+00:00",
+  "checked_at": "2026-11-12T01:38:32+00:00",
   "libraries": {
     "Bo": {
       "latitude": 57.721064,
@@ -13,6 +13,13 @@
       "longitude": 11.979705,
       "city": "Göteborg",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Gbg",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Or1": {
+      "latitude": 59.2687441,
+      "longitude": 15.2078372,
+      "city": "Örebro",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Or1",
       "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
     },
     "Afb": {
@@ -125,6 +132,13 @@
       "longitude": 12.994148,
       "city": "Malmö",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Mo",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "R": {
+      "latitude": 59.325744,
+      "longitude": 18.067789,
+      "city": "Stockholm",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=R",
       "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
     },
     "Ssb": {
