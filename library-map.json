@@ -360,7 +360,7 @@
       "uri": "https://libris.kb.se/library/7Kka"
     }
   ],
-  "directory_checked_at": "2026-11-14T10:49:57+00:00",
+  "directory_checked_at": "2026-11-14T17:16:10+00:00",
   "cached_coordinates": false,
   "other_libraries": [
     {
@@ -6946,6 +6946,10 @@
       "name": "S:t Eskils gymnasium"
     },
     {
+      "sigel": "7Str",
+      "name": "Strömstads skolor"
+    },
+    {
       "sigel": "7Sve",
       "name": "Svedala skolbibliotek"
     },
@@ -7284,6 +7288,10 @@
     {
       "sigel": "Jagf",
       "name": "Jämtlands Gymnasieförbund"
+    },
+    {
+      "sigel": "Jla",
+      "name": "Jämtlands läns arkiv"
     },
     {
       "sigel": "Jm",
@@ -7870,8 +7878,8 @@
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     }
   ],
-  "participant_count": 922,
+  "participant_count": 924,
   "map_version": 2,
-  "participant_checked_at": "2026-11-07T16:58:21+00:00",
+  "participant_checked_at": "2026-11-14T17:16:15+00:00",
   "participant_cached": false
 }
