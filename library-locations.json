@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16T11:57:20+00:00",
+  "checked_at": "2026-11-16T23:49:10+00:00",
   "libraries": {
     "Bo": {
       "latitude": 57.721064,
@@ -195,6 +195,13 @@
       "longitude": null,
       "city": "Uppsala",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=7Up",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "7Hgy": {
+      "latitude": null,
+      "longitude": null,
+      "city": "Hallsberg",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=7Hgy",
       "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
     },
     "7Kka": {

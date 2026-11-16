@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-16",
-  "checked_at": "2026-11-15T23:29:22+00:00",
+  "date": "2026-11-17",
+  "checked_at": "2026-11-16T23:49:09+00:00",
   "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
-  "count": 30,
+  "count": 31,
   "libraries": [
     {
       "sigel": "Afb",
@@ -355,12 +355,17 @@
   ],
   "unmapped": [
     {
+      "sigel": "7Hgy",
+      "name": "Hallsberg gymnasiebibliotek",
+      "uri": "https://libris.kb.se/library/7Hgy"
+    },
+    {
       "sigel": "7Kka",
       "name": "Karlskronas skolor",
       "uri": "https://libris.kb.se/library/7Kka"
     }
   ],
-  "directory_checked_at": "2026-11-16T11:57:20+00:00",
+  "directory_checked_at": "2026-11-16T23:49:10+00:00",
   "cached_coordinates": false,
   "other_libraries": [
     {
@@ -6688,10 +6693,6 @@
     {
       "sigel": "7Hgr",
       "name": "Skolbiblioteken i Hallsberg"
-    },
-    {
-      "sigel": "7Hgy",
-      "name": "Hallsberg gymnasiebibliotek"
     },
     {
       "sigel": "7Hkb",
