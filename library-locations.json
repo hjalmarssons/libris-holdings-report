@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19T22:44:41+00:00",
+  "checked_at": "2026-11-20T12:04:03+00:00",
   "libraries": {
     "Bo": {
       "latitude": 57.721064,
@@ -41,6 +41,13 @@
       "longitude": 15.4341032,
       "city": "Borlänge",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Borb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
+    },
+    "Hudb": {
+      "latitude": 59.2387925,
+      "longitude": 17.9873063,
+      "city": "Huddinge",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Hudb",
       "note": "Directory location for this sigel; networks and multi-site libraries may have other branches."
     },
     "Lyck": {

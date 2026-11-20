@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-19",
-  "checked_at": "2026-11-19T12:02:12+00:00",
+  "date": "2026-11-20",
+  "checked_at": "2026-11-20T12:04:02+00:00",
   "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
-  "count": 31,
+  "count": 32,
   "libraries": [
     {
       "sigel": "Afb",
@@ -110,6 +110,18 @@
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Btj",
       "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
       "first_seen": "2026-10-07",
+      "representative": false
+    },
+    {
+      "sigel": "Hudb",
+      "name": "Huddinge bibliotek",
+      "uri": "https://libris.kb.se/library/Hudb",
+      "latitude": 59.2387925,
+      "longitude": 17.9873063,
+      "city": "Huddinge",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Hudb",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
+      "first_seen": "2026-11-20",
       "representative": false
     },
     {
@@ -365,7 +377,7 @@
       "uri": "https://libris.kb.se/library/7Kka"
     }
   ],
-  "directory_checked_at": "2026-11-19T22:44:41+00:00",
+  "directory_checked_at": "2026-11-20T12:04:03+00:00",
   "cached_coordinates": false,
   "other_libraries": [
     {
@@ -2368,17 +2380,6 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Htut",
-      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
-    },
-    {
-      "sigel": "Hudb",
-      "name": "Huddinge bibliotek",
-      "uri": "https://libris.kb.se/library/Hudb",
-      "latitude": 59.2387925,
-      "longitude": 17.9873063,
-      "city": "",
-      "country_code": "se",
-      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Hudb",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
     {

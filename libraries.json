@@ -3,9 +3,9 @@
   "isbn": "9789147158324",
   "libris_id": "c0qkzx1t9hs5ml77",
   "timezone": "Europe/Stockholm",
-  "date": "2026-11-19",
-  "checked_at": "2026-11-19T12:02:12+00:00",
-  "count": 31,
+  "date": "2026-11-20",
+  "checked_at": "2026-11-20T12:04:02+00:00",
+  "count": 32,
   "libraries": [
     {
       "sigel": "Afb",
@@ -56,6 +56,11 @@
       "sigel": "7Hgy",
       "name": "Hallsberg gymnasiebibliotek",
       "uri": "https://libris.kb.se/library/7Hgy"
+    },
+    {
+      "sigel": "Hudb",
+      "name": "Huddinge bibliotek",
+      "uri": "https://libris.kb.se/library/Hudb"
     },
     {
       "sigel": "Lyck",
@@ -165,8 +170,10 @@
   ],
   "changes": {
     "baseline": false,
-    "compared_to": "2026-11-18",
-    "added": [],
+    "compared_to": "2026-11-19",
+    "added": [
+      "Hudb"
+    ],
     "removed": []
   }
 }
