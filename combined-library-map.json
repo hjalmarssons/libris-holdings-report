@@ -6739,6 +6739,10 @@
       "name": "Älvdalen skolbibliotek"
     },
     {
+      "sigel": "7Ale",
+      "name": "Ale skolor"
+    },
+    {
       "sigel": "7Alm",
       "name": "Älmhults skolor"
     },
@@ -7097,6 +7101,10 @@
     {
       "sigel": "7Ske",
       "name": "Skellefteå gymnasiebibliotek"
+    },
+    {
+      "sigel": "7Sko",
+      "name": "Stenungsunds skolor"
     },
     {
       "sigel": "7Sme",
@@ -8059,7 +8067,7 @@
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     }
   ],
-  "participant_count": 924,
+  "participant_count": 926,
   "map_version": 2,
   "combined": true,
   "earlier": {
@@ -8077,7 +8085,7 @@
     "count": 32
   },
   "both_count": 11,
-  "participant_checked_at": "2026-11-14T17:16:15+00:00",
+  "participant_checked_at": "2026-11-21T21:02:01+00:00",
   "participant_cached": false,
   "directory_checked_at": "2026-10-20T23:56:24+00:00",
   "cached_coordinates": false
