@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-27",
-  "checked_at": "2026-11-26T23:58:09+00:00",
+  "date": "2026-11-28",
+  "checked_at": "2026-11-27T23:40:14+00:00",
   "title": "Välfärd och livsvillkor: Perspektiv på samtida samhällsbilder",
-  "count": 32,
+  "count": 33,
   "libraries": [
     {
       "sigel": "Afb",
@@ -341,6 +341,18 @@
       "representative": true
     },
     {
+      "sigel": "Va1",
+      "name": "Växjö stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Va1",
+      "latitude": 56.880443,
+      "longitude": 14.801149,
+      "city": "Växjö",
+      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Va1",
+      "note": "Directory location for this sigel; networks and multi-site libraries may have other branches.",
+      "first_seen": "2026-11-28",
+      "representative": false
+    },
+    {
       "sigel": "Or1",
       "name": "Örebro bibliotek",
       "uri": "https://libris.kb.se/library/Or1",
@@ -377,7 +389,7 @@
       "uri": "https://libris.kb.se/library/7Kka"
     }
   ],
-  "directory_checked_at": "2026-11-27T13:00:09+00:00",
+  "directory_checked_at": "2026-11-27T23:40:16+00:00",
   "cached_coordinates": false,
   "other_libraries": [
     {
@@ -6076,17 +6088,6 @@
       "city": "",
       "country_code": "se",
       "source": "https://bibdb.libris.kb.se/api/lib?sigel=Usb",
-      "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
-    },
-    {
-      "sigel": "Va1",
-      "name": "Växjö stadsbibliotek",
-      "uri": "https://libris.kb.se/library/Va1",
-      "latitude": 56.880443,
-      "longitude": 14.801149,
-      "city": "",
-      "country_code": "se",
-      "source": "https://bibdb.libris.kb.se/api/lib?sigel=Va1",
       "note": "Active Libris participant; no registered holding for this edition in the latest observation. A network dot represents one directory location."
     },
     {

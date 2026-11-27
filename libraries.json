@@ -3,9 +3,9 @@
   "isbn": "9789147158324",
   "libris_id": "c0qkzx1t9hs5ml77",
   "timezone": "Europe/Stockholm",
-  "date": "2026-11-27",
-  "checked_at": "2026-11-26T23:58:09+00:00",
-  "count": 32,
+  "date": "2026-11-28",
+  "checked_at": "2026-11-27T23:40:14+00:00",
+  "count": 33,
   "libraries": [
     {
       "sigel": "Afb",
@@ -158,6 +158,11 @@
       "uri": "https://libris.kb.se/library/7Vax"
     },
     {
+      "sigel": "Va1",
+      "name": "Växjö stadsbibliotek",
+      "uri": "https://libris.kb.se/library/Va1"
+    },
+    {
       "sigel": "Or1",
       "name": "Örebro bibliotek",
       "uri": "https://libris.kb.se/library/Or1"
@@ -170,8 +175,10 @@
   ],
   "changes": {
     "baseline": false,
-    "compared_to": "2026-11-26",
-    "added": [],
+    "compared_to": "2026-11-27",
+    "added": [
+      "Va1"
+    ],
     "removed": []
   }
 }
